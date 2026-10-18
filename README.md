@@ -1,4 +1,4 @@
-# KernelBasher 1.1 — source reconstruction
+# KernelBasher 1.1
 
 This project builds a working 32-bit Windows GUI and command-line tool.
 It contains editable C++ application/patch code, the recovered dialog resources,
