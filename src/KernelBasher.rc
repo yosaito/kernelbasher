@@ -21,12 +21,16 @@ BEGIN
 END
 
 LANGUAGE 9, 1
-102 DIALOGEX 0, 0, 332, 319
+102 DIALOGEX 0, 0, 546, 319
 STYLE 0x90c80840
 EXSTYLE 0x00040000
 CAPTION " -{ Kernel Basher 1.1 }- Team KernelBase.com"
 FONT 8, "Arial", 0, 0, 1
 BEGIN
+    CONTROL "Live boot preview", -1, "Button", 0x50000007, 332, 7, 207, 183, 0
+    CONTROL "Starting animation preview...", 5100, "Static", 0x56020000, 339, 20, 193, 162, 0
+    CONTROL "Reference rendering from xbox-boot-re (Complex 4627). Colours, geometry and motion update as you edit. The preview loops silently.", -1, "Static", 0x50020000, 339, 199, 193, 40, 0
+    CONTROL "Hardware and other BIOS revisions may render differently. Camera choices 1-6 share the original patcher's behaviour; 7 and 8 select separate paths.", -1, "Static", 0x50020000, 339, 247, 193, 48, 0
     CONTROL "Slider17", 5054, "msctls_trackbar32", 0x5000001a, 13, 27, 20, 48, 0x00000000
     CONTROL "Slider18", 5055, "msctls_trackbar32", 0x5000001a, 36, 27, 20, 48, 0x00000000
     CONTROL "Slider19", 5056, "msctls_trackbar32", 0x5000001a, 59, 27, 20, 48, 0x00000000
@@ -81,34 +85,34 @@ BEGIN
     CONTROL "File Options", -1, "Button", 0x50020007, 145, 209, 180, 95, 0x00000000
     CONTROL "", 5010, "Edit", 0x50020880, 186, 221, 75, 13, 0x00000020
     CONTROL "", 5014, "Edit", 0x50000980, 186, 236, 75, 12, 0x00000000
-    CONTROL "", 5021, "Edit", 0x50002880, 171, 74, 17, 12, 0x00000000
-    CONTROL "", 5022, "Edit", 0x50002880, 197, 75, 17, 12, 0x00000000
-    CONTROL "", 5023, "Edit", 0x50002880, 217, 75, 17, 12, 0x00000000
+    CONTROL "", 5021, "Edit", 0x50002080, 171, 74, 17, 12, 0x00000000
+    CONTROL "", 5022, "Edit", 0x50002080, 197, 75, 17, 12, 0x00000000
+    CONTROL "", 5023, "Edit", 0x50002080, 217, 75, 17, 12, 0x00000000
     CONTROL "R         G         B", -1, "Static", 0x50020000, 177, 19, 58, 13, 0x00000000
     CONTROL "R         G          B", -1, "Static", 0x50020000, 256, 19, 61, 8, 0x00000000
-    CONTROL "", 5033, "Edit", 0x50002880, 246, 75, 17, 12, 0x00000000
-    CONTROL "", 5034, "Edit", 0x50002880, 270, 75, 17, 12, 0x00000000
-    CONTROL "", 5035, "Edit", 0x50002880, 296, 75, 17, 12, 0x00000000
+    CONTROL "", 5033, "Edit", 0x50002080, 246, 75, 17, 12, 0x00000000
+    CONTROL "", 5034, "Edit", 0x50002080, 270, 75, 17, 12, 0x00000000
+    CONTROL "", 5035, "Edit", 0x50002080, 296, 75, 17, 12, 0x00000000
     CONTROL "R         G          B", -1, "Static", 0x50020000, 95, 18, 58, 8, 0x00000000
-    CONTROL "", 5039, "Edit", 0x50002880, 92, 75, 17, 12, 0x00000000
-    CONTROL "", 5040, "Edit", 0x50002880, 116, 75, 17, 12, 0x00000000
-    CONTROL "", 5041, "Edit", 0x50002880, 140, 75, 17, 12, 0x00000000
+    CONTROL "", 5039, "Edit", 0x50002080, 92, 75, 17, 12, 0x00000000
+    CONTROL "", 5040, "Edit", 0x50002080, 116, 75, 17, 12, 0x00000000
+    CONTROL "", 5041, "Edit", 0x50002080, 140, 75, 17, 12, 0x00000000
     CONTROL "Slider11", 5042, "msctls_trackbar32", 0x4000001a | NOT WS_VISIBLE, 231, 274, 17, 6, 0x00000000
     CONTROL "", 5043, "Edit", 0x40002880 | NOT WS_VISIBLE, 233, 269, 17, 12, 0x00000000
     CONTROL "R          G           B          A", -1, "Static", 0x50020000, 97, 120, 84, 8, 0x00000000
-    CONTROL "", 5048, "Edit", 0x50002880, 89, 176, 17, 13, 0x00000000
-    CONTROL "", 5049, "Edit", 0x50002880, 115, 176, 17, 13, 0x00000000
-    CONTROL "", 5050, "Edit", 0x50002880, 141, 176, 17, 13, 0x00000000
-    CONTROL "", 5051, "Edit", 0x50002880, 167, 176, 17, 13, 0x00000000
+    CONTROL "", 5048, "Edit", 0x50002080, 89, 176, 17, 13, 0x00000000
+    CONTROL "", 5049, "Edit", 0x50002080, 115, 176, 17, 13, 0x00000000
+    CONTROL "", 5050, "Edit", 0x50002080, 141, 176, 17, 13, 0x00000000
+    CONTROL "", 5051, "Edit", 0x50002080, 167, 176, 17, 13, 0x00000000
     CONTROL "Radius", -1, "Static", 0x50020000, 199, 120, 30, 8, 0x00000000
-    CONTROL "", 5053, "Edit", 0x50002880, 205, 176, 17, 13, 0x00000000
+    CONTROL "", 5053, "Edit", 0x50000080, 205, 176, 17, 13, 0x00000000
     CONTROL "R         G         B", -1, "Static", 0x50020000, 19, 17, 58, 8, 0x00000000
-    CONTROL "", 5057, "Edit", 0x50002880, 15, 75, 17, 12, 0x00000000
-    CONTROL "", 5058, "Edit", 0x50002880, 37, 75, 17, 12, 0x00000000
-    CONTROL "", 5059, "Edit", 0x50002880, 61, 75, 17, 12, 0x00000000
-    CONTROL "", 5063, "Edit", 0x50002880, 15, 176, 15, 14, 0x00000000
-    CONTROL "", 5064, "Edit", 0x50002880, 33, 176, 20, 14, 0x00000000
-    CONTROL "", 5065, "Edit", 0x50002880, 55, 176, 18, 15, 0x00000000
+    CONTROL "", 5057, "Edit", 0x50002080, 15, 75, 17, 12, 0x00000000
+    CONTROL "", 5058, "Edit", 0x50002080, 37, 75, 17, 12, 0x00000000
+    CONTROL "", 5059, "Edit", 0x50002080, 61, 75, 17, 12, 0x00000000
+    CONTROL "", 5063, "Edit", 0x50002080, 15, 176, 15, 14, 0x00000000
+    CONTROL "", 5064, "Edit", 0x50002080, 33, 176, 20, 14, 0x00000000
+    CONTROL "", 5065, "Edit", 0x50002080, 55, 176, 18, 15, 0x00000000
     CONTROL "", 5069, "Edit", 0x40002880 | NOT WS_VISIBLE, 229, 267, 17, 13, 0x00000000
     CONTROL "", 5070, "Edit", 0x40002880 | NOT WS_VISIBLE, 227, 266, 17, 13, 0x00000000
     CONTROL "", 5071, "Edit", 0x40002880 | NOT WS_VISIBLE, 230, 266, 17, 13, 0x00000000

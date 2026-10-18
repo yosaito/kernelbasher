@@ -3,6 +3,10 @@
 This project builds a working 32-bit Windows GUI and command-line tool.
 It contains editable C++ application/patch code, the recovered dialog resources,
 and reassemblable x86 MASM source for the embedded M8/LZX codec.
+The Windows dialog now includes an offline, looping live boot-animation preview
+using [xbox-boot-re](https://github.com/bennyborn/xbox-boot-re). Sliders, typed
+values, presets, cameras and logo changes update the animation as you edit.
+See [docs/PREVIEW.md](docs/PREVIEW.md) for the mapping and its accuracy limits.
 
 This is a functional reconstruction, not the lost original project. Compiler
 output cannot recover the original comments, most local variable names, original
@@ -53,6 +57,7 @@ build/KernelBasher-cli.exe   command-line application
 build/xbflash.dll            original third-party dependency
 build/msvcr71.dll            runtime required by that original DLL
 build/config.ini            original release configuration
+build/preview/              bundled animation, WASM, data and renderer
 ```
 
 Both EXEs were compiled successfully with MSVC 14.44.35207 on Windows. The new
@@ -64,6 +69,11 @@ operations. M8 uses the reconstructed embedded codec and C++ container code.
 
 The portable archive includes the original `Presets` and `xfiles` directories.
 For a source build, those examples remain under `original/extracted/`.
+Keep `preview/` beside the Windows EXE. Live preview requires Microsoft Edge
+WebView2 Runtime and a WebGPU-capable graphics driver; the editor still works
+if those are unavailable. Preview playback is silent and requires no internet.
+The supplied WASM is hash checked; LLVM is only needed to recompile the animation
+core, as documented in `docs/PREVIEW.md`.
 
 ## Use
 
@@ -167,6 +177,9 @@ Yoshihiro/GUEUX.NET, Mterlouw, RjT, BlackstormX, Klutsh and The_Lynx (xbtc), and
 consolemods.co.uk. See `original/extracted/README.TXT` for the original wording.
 Original artwork, lookup tables, codec code and third-party binaries retain
 their original ownership and license status; no new blanket license is asserted.
+Preview source and dependencies have separate notices in `third_party/README.md`.
+The renderer's MIT license excludes its Microsoft-derived data, as its upstream
+provenance document explicitly states.
 
 `xbflash.dll` and `msvcr71.dll` are preserved binary dependencies, not recreated
 source. The lost application's embedded M8 code and patching logic are represented

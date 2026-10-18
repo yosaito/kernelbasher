@@ -3,6 +3,7 @@
 # Preserve archived release bytes and raw recovery evidence exactly.
 original/** -text -whitespace
 evidence/** -text -whitespace
+third_party/** -text -whitespace
 *.exe binary
 *.dll binary
 *.bin binary
@@ -11,3 +12,5 @@ evidence/** -text -whitespace
 *.png binary
 *.pdf binary
 *.zip binary
+*.wasm binary
+*.lib binary

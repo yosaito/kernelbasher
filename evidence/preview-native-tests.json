@@ -1,0 +1,7 @@
+{
+  "packagedWebView": true,
+  "ready": true,
+  "nativeRadiusChange": true,
+  "nativeWireframeChange": true,
+  "previewStatus": "Live reference preview · loops silently"
+}

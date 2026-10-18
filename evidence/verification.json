@@ -2,11 +2,11 @@
   "binaries": [
     {
       "file": "KernelBasher.exe",
-      "Hash": "3F61E765C88AA2E126E332C4BE46E5052816E7AEC74D597726AC06DF5B6975A9"
+      "Hash": "ED87D60E34999591426DCF92976E7555A727A61EB4D73B582A8E7DED3A6221C0"
     },
     {
       "file": "KernelBasher-cli.exe",
-      "Hash": "61F4F741E285DC8D1913E0D0ABC16CBE1C761B5697F51D99A98D8D70F6F59336"
+      "Hash": "533AC4D3DED823D3F08E4DACC79446586E523D4F4322A04E63F6D7A26DD9CCA9"
     }
   ],
   "differential_cases": 8,
@@ -15,10 +15,10 @@
   "ghidra": "12.1.4 full exports and supplemental function recovery",
   "real_bios_boot_tested": false,
   "differential_differences": 0,
-  "clean_archive_build": "success: current memory source archive rebuilt; 28 regressions and 8 original-output replays passed",
+  "clean_archive_build": "success: preview source archive extracted and rebuilt with MSVC; 28 regressions and 8 original-output replays passed",
   "differential_bytes_per_case": 49152,
-  "external_review": "Earlier Argon planning review succeeded; memory-refactor review timed out at 180 seconds. Locally verified against original x86 code.",
-  "gui": "Launched and loaded shipped RED.kbp; verified sliders, numeric fields and previews",
+  "external_review": "Gemini 4 Argon High (pinned gemini-4-argon-high, effort high) reviewed preview lifecycle/embedding plan successfully; readiness handshake, weak callback ownership, writable user cache, replay and device-loss handling assessed and implemented. Provider reports selected model, not a separate response-model identity.",
+  "gui": "Packaged WebView2 renderer launched; actual native numeric radius edit and wireframe checkbox verified through received settings. Native child capture excludes the GPU surface, so renderer screenshots were captured directly through WebView2.",
   "regression_checks": 28,
   "build": "success",
   "third_party_binary_dependencies": [
@@ -30,5 +30,13 @@
   "reordered_patch_comparisons": 2,
   "final_replay_comparisons": 8,
   "input_immutability_and_repeatability": "passed in test-kernel",
-  "temporary_directory_independence": "passed for kernel scanner/patcher"
+  "temporary_directory_independence": "passed for kernel scanner/patcher",
+  "preview": {
+    "upstream": "bennyborn/xbox-boot-re",
+    "commit": "12a3396aa77f72c8d2fd94c0988c7e11539b47e7",
+    "renderer_checks": 20,
+    "native_bridge": "packaged WebView2 readiness, radius and wireframe updates passed",
+    "offline_assets": true,
+    "wasm_sha256": "b9f86de51bb99edd6a0f34a0ed7a7b6b699abefcd57912971fa2405ea14e29f5"
+  }
 }

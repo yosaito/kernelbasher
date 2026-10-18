@@ -7,3 +7,6 @@ evidence/ghidra-project/
 evidence/consult-*
 hs_err_pid*.log
 __pycache__/
+
+tools/xbox-boot-re-upstream/
+third_party/xbox-boot-re/out/
