@@ -1,7 +1,6 @@
 # KernelBasher 1.1 — source reconstruction
 
-Recovered for Guy on 18 October 2026 from the release downloaded directly from
-xbins. This project builds a working 32-bit Windows GUI and command-line tool.
+This project builds a working 32-bit Windows GUI and command-line tool.
 It contains editable C++ application/patch code, the recovered dialog resources,
 and reassemblable x86 MASM source for the embedded M8/LZX codec.
 
