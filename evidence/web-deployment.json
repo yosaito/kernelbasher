@@ -1,0 +1,39 @@
+{
+  "verifiedAt": "2026-10-18T10:36:05.614411+00:00",
+  "url": "https://mather.click/kernelbasher/",
+  "page": {
+    "status": 200,
+    "tlsVerified": true,
+    "contentType": "text/html"
+  },
+  "health": {
+    "engine": "KernelBasher 1.1",
+    "maxBiosBytes": 1048576,
+    "status": "ok"
+  },
+  "server": {
+    "deployment": {
+      "release": "c1471ea7767b",
+      "image": "kernelbasher-worker:c1471ea7767b",
+      "previousImage": null,
+      "previousRelease": null,
+      "url": "https://mather.click/kernelbasher/"
+    },
+    "network": "none",
+    "readOnlyRoot": true,
+    "user": "10001:33",
+    "droppedCapabilities": [
+      "ALL"
+    ],
+    "memoryLimitBytes": 402653184,
+    "restart": "unless-stopped",
+    "temporaryJobsRemaining": 0,
+    "wineTemporaryFilesRemaining": 0,
+    "nginx": "active",
+    "certificateRenewalTimer": "enabled",
+    "existingYevhartStatus": "200"
+  },
+  "apiChecks": 12,
+  "browserChecks": 12,
+  "fixtureScope": "Synthetic, non-bootable M8 input; no real BIOS or hardware boot verification."
+}
