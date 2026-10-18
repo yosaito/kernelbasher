@@ -1,0 +1,72 @@
+{
+  "base": "http://127.0.0.1:4505/kernelbasher/api",
+  "passed": true,
+  "checks": [
+    {
+      "test": "HTTP / Windows / legacy settings produce identical BIOS",
+      "passed": true,
+      "case": 0,
+      "bytes": 262144,
+      "sha256": "42cd65b428831264890b477a554e3118611a6538f0d7edd71c8cf3136d8ecd83"
+    },
+    {
+      "test": "HTTP / Windows / legacy settings produce identical BIOS",
+      "passed": true,
+      "case": 1,
+      "bytes": 262144,
+      "sha256": "c456ebd7aa4dc98ba127cce748e9b77d9b89fdb5acd193640350df80ba9a1980"
+    },
+    {
+      "test": "HTTP / Windows / legacy settings produce identical BIOS",
+      "passed": true,
+      "case": 2,
+      "bytes": 262144,
+      "sha256": "4f3066b12a0eef9573ae364f2ef749eed44ecc6b627fe63d6ae2b90da3de099d"
+    },
+    {
+      "test": "reject wrong BIOS size",
+      "passed": true,
+      "status": 400
+    },
+    {
+      "test": "reject unrecognised BIOS",
+      "passed": true,
+      "status": 400
+    },
+    {
+      "test": "reject invalid colour count",
+      "passed": true,
+      "status": 400
+    },
+    {
+      "test": "reject invalid radius",
+      "passed": true,
+      "status": 400
+    },
+    {
+      "test": "reject invalid flag",
+      "passed": true,
+      "status": 400
+    },
+    {
+      "test": "reject missing X file",
+      "passed": true,
+      "status": 400
+    },
+    {
+      "test": "reject malformed X file",
+      "passed": true,
+      "status": 400
+    },
+    {
+      "test": "reject foreign origin",
+      "passed": true,
+      "status": 403
+    },
+    {
+      "test": "reject malformed JSON",
+      "passed": true,
+      "status": 400
+    }
+  ]
+}

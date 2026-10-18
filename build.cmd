@@ -23,6 +23,7 @@ ml /nologo /c /coff /Fobuild\m8_codec.obj src\m8_codec.asm
 if errorlevel 1 exit /b 1
 cl /nologo /std:c++17 /EHsc /MT /O2 /arch:IA32 /D_CRT_SECURE_NO_WARNINGS /Fobuild\ /Febuild\KernelBasher-cli.exe src\core.cpp src\patch_engine.cpp src\m8_container.cpp src\cli.cpp build\m8_codec.obj /link user32.lib
 if errorlevel 1 exit /b 1
+if /i "%~1"=="--cli-only" goto copy_dependencies
 python tools\build_preview.py
 if errorlevel 1 exit /b 1
 python tools\build_resources.py
@@ -35,6 +36,7 @@ cl /nologo /EHsc /MT /O2 /DUNICODE /D_UNICODE /Fobuild\preview_host_test.obj /Fe
 if errorlevel 1 exit /b 1
 build\preview_host_test.exe "%CD%\build\KernelBasher.exe"
 if errorlevel 1 exit /b 1
+:copy_dependencies
 copy /y "original\extracted\xbflash.dll" "build\xbflash.dll" >nul
 if errorlevel 1 exit /b 1
 copy /y "original\extracted\$SYSDIR\msvcr71.dll" "build\msvcr71.dll" >nul

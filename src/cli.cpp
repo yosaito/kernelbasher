@@ -2,11 +2,31 @@
 #include <iostream>
 #include <fstream>
 #include <memory>
+#include <cmath>
+
+// Complete settings for the web adapter. Legacy .kbp presets deliberately
+// retain their original partial-load semantics, so they cannot carry this API.
+static Options load_options(const char* path) {
+    auto b=read_file(path);
+    if(b.size()!=40||std::memcmp(b.data(),"KBO1",4)||b[23])throw std::runtime_error("Invalid options file");
+    auto o=Options::defaults();
+    for(unsigned i=0;i<19;++i)o.at(channels[i].member)=b[4+i];
+    uint32_t camera,flags,size;
+    std::memcpy(&o.radius,b.data()+24,4);std::memcpy(&camera,b.data()+28,4);
+    std::memcpy(&flags,b.data()+32,4);std::memcpy(&size,b.data()+36,4);
+    if(!std::isfinite(o.radius)||o.radius<0||o.radius>6.375f||camera<1||camera>8||(flags&~127u))throw std::runtime_error("Invalid options values");
+    if(size!=0x40000&&size!=0x80000&&size!=0x100000)throw std::runtime_error("Invalid output size");
+    o.camera=camera;o.output_size=size;
+    const unsigned members[]={0xdc4,0xd34,0xd30,0xd48,0xdd0,0xdd8,0xddc};
+    for(unsigned i=0;i<7;++i)o.at(members[i])=(flags>>i)&1;
+    return o;
+}
 
 int main(int argc,char** argv) {
  try {
-    if(argc<3){std::cout<<"KernelBasher reconstructed 1.1\nCommands: identify BIOS | unpack BIOS OUTPUT | patch BIOS OUTPUT [PRESET] [LOGO]\n          kernel-patch INPUT OUTPUT KIND [PRESET] [LOGO] | preset-info FILE | logo-info FILE\n";return 0;}
+    if(argc<3){std::cout<<"KernelBasher reconstructed 1.1\nCommands: identify BIOS | unpack BIOS OUTPUT | patch BIOS OUTPUT [PRESET] [LOGO]\n          patch-options BIOS OUTPUT OPTIONS [LOGO]\n          kernel-patch INPUT OUTPUT KIND [PRESET] [LOGO] | preset-info FILE | logo-info FILE\n";return 0;}
     std::string cmd=argv[1];
+    if(cmd=="patch-options"&&(argc==5||argc==6)){auto o=load_options(argv[4]);std::unique_ptr<Logo> l;if(argc==6)l=std::make_unique<Logo>(load_logo(argv[5]));patch_bios(argv[2],argv[3],o,l.get());return 0;}
     if(cmd=="identify"){auto id=identify_bios(read_file(argv[2]));std::cout<<id.name<<" kind="<<id.kind<<" checksum="<<std::hex<<id.checksum<<"\n";return id.kind?0:2;}
     if(cmd=="preset-info"){auto p=load_preset(argv[2]);auto o=apply_preset(p,Options::defaults());for(auto& c:channels)std::cout<<c.name<<"="<<o.at(c.member)<<"\n";std::cout<<"Radius="<<o.radius<<"\n";return 0;}
     if(cmd=="logo-info"){auto l=load_logo(argv[2]);std::cout<<l.vertices.size()<<" vertices, "<<l.faces.size()<<" triangles\n";return 0;}

@@ -6,7 +6,7 @@ Source: https://github.com/bennyborn/xbox-boot-re
 
 Public preview fork: https://github.com/yosaito/xbox-boot-re
 
-Fork integration commit: `8a8c1afa512fed17597e4514617732fee5447ad5`.
+Fork integration commit: `84f9717cfc93206561a1c6b7199f62fafaa4ce05`.
 Its `hosts/kernelbasher/` directory publishes the same preview adapter and
 WASM used here, a standalone build, and the 20 renderer checks. GitHub records
 the upstream fork relationship. This project continues to bundle its offline

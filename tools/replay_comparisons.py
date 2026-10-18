@@ -1,6 +1,6 @@
 """Fast final-build check against the saved ORIGINAL x86 output fixtures."""
 from pathlib import Path
-import hashlib,json,subprocess,tempfile
+import hashlib,json,os,subprocess,tempfile
 ROOT=Path(__file__).resolve().parents[1]
 EVIDENCE=ROOT/'evidence/differential'
 cases=json.loads((EVIDENCE/'results.json').read_text())
@@ -9,7 +9,7 @@ results=[]
 with tempfile.TemporaryDirectory(prefix='kernelbasher-replay-') as temp:
  for case in cases:
   i=case['case'];out=Path(temp)/f'case-{i}.img'
-  args=[str(ROOT/'build/KernelBasher-cli.exe'),'test-kernel',
+  args=[*json.loads(os.environ.get('KB_RUNNER','[]')),os.environ.get('KB_EXE',str(ROOT/'build/KernelBasher-cli.exe')),'test-kernel',
         str(EVIDENCE/'fixture.img'),str(out),str(case['kind']),
         str(EVIDENCE/f'options-{i}.bin'),str(case['camera'])]
   if i>=6:args.append(str(ROOT/'original/extracted/xfiles/xbmc-real.x'))

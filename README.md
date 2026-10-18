@@ -1,5 +1,9 @@
 # KernelBasher 1.1
 
+**Web app: [mather.click/kernelbasher](https://mather.click/kernelbasher/)** — live
+animation editing, preset loading, X-file lettering and patched BIOS downloads.
+See [docs/WEB.md](docs/WEB.md) for architecture, tests, local setup and VPS deployment.
+
 This project builds a working 32-bit Windows GUI and command-line tool.
 It contains editable C++ application/patch code, the recovered dialog resources,
 and reassemblable x86 MASM source for the embedded M8/LZX codec.
@@ -35,6 +39,8 @@ auditable. The new GUI uses Win32 in place of the old MFC71 shell.
 - `docs/RECOVERY.md`: provenance, source-to-binary map, compatibility decisions,
   test coverage, and remaining limitations.
 - `docs/DATA_FORMATS.md`: preset format, settings bindings and BIOS IDs.
+- `web/client/`: responsive browser editor using the shared animation renderer.
+- `web/worker/`: isolated HTTP worker that runs the same x86 engine under Wine.
 
 The scanner searches the immutable input with `memchr`/`memcmp`, preserving the
 original failed-prefix consumption and last-match behavior. The patcher copies

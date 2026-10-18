@@ -61,3 +61,21 @@ lengths, followed by the compressed bytes. Plain blocks are at most 0x8000 bytes
 The initialized `.data` section immediately follows the compressed stream.
 Kernel header fields 0x28..0x3b describe uninitialized/initialized data lengths,
 data ROM/RAM addresses, and the replacement boot-block size (0x4658).
+## Web adapter options (KBO1)
+
+`patch-options BIOS OUTPUT OPTIONS [LOGO]` accepts the full settings independently
+of the original partial-load `.kbp` semantics. The options file is exactly 40 bytes:
+
+| Offset | Type | Meaning |
+| --- | --- | --- |
+| 0 | 4 bytes | ASCII `KBO1` |
+| 4 | 19 bytes | Fog RGB, initial glow RGB, main glow RGB, scene RGB, end glow RGB, flubber RGB, flubber alpha |
+| 23 | byte | Reserved, must be zero |
+| 24 | float32 LE | Radius, finite and between 0 and 6.375 |
+| 28 | uint32 LE | Camera, 1–8 |
+| 32 | uint32 LE | Flags: white splash, white animation, keep machinery, replace logo, random camera, wireframe, Torn X (bits 0–6) |
+| 36 | uint32 LE | Requested output size: 262144, 524288 or 1048576 |
+
+Unspecified hidden colour channels retain the desktop defaults. M8 preserves
+its input size. Unknown flag bits, malformed lengths and invalid values are
+rejected. Selecting replace-logo requires a valid X file.

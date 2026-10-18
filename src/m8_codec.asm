@@ -1237,7 +1237,7 @@ L_0040a483:
 L_0040a484:
     lea eax, [esp + 4] ; 0040a484
 L_0040a488:
-    push OFFSET _kb_memory + 7719680 ; 0040a488
+    push 0b71b00h ; 0040a488 (literal Intel E8 transform size, not an address)
 L_0040a48d:
     mov ecx, dword ptr [esp + 014h] ; 0040a48d
 L_0040a491:

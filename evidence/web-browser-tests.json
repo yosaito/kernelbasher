@@ -1,0 +1,54 @@
+{
+  "base": "http://127.0.0.1:4505/kernelbasher/",
+  "passed": true,
+  "checks": [
+    {
+      "name": "live preview before loading BIOS",
+      "passed": true
+    },
+    {
+      "name": "colour sliders update rendered pixels",
+      "passed": true
+    },
+    {
+      "name": "radius updates renderer",
+      "passed": true
+    },
+    {
+      "name": "camera updates renderer",
+      "passed": true
+    },
+    {
+      "name": "X-file selection replaces the visible lettering",
+      "passed": true
+    },
+    {
+      "name": "custom X file survives two automatic loops",
+      "passed": true
+    },
+    {
+      "name": "legacy preset colour/radius round trip",
+      "passed": true
+    },
+    {
+      "name": "invalid BIOS cannot be downloaded",
+      "passed": true
+    },
+    {
+      "name": "browser download exactly matches the native Windows output",
+      "passed": true
+    },
+    {
+      "name": "keyboard tab navigation",
+      "passed": true
+    },
+    {
+      "name": "390px mobile layout without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "clear WebGPU fallback with editor still available",
+      "passed": true
+    }
+  ]
+}

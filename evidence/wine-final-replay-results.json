@@ -1,0 +1,50 @@
+[
+  {
+    "case": 0,
+    "bytes": 49152,
+    "match": true,
+    "sha256": "2324d51de1568e517dcc4575f0b831566c7e2709b63b0440c1285493306420f7"
+  },
+  {
+    "case": 1,
+    "bytes": 49152,
+    "match": true,
+    "sha256": "e820a049557fdd5c2111abf52c7309780d9cfc57489ad405fd079fd600823f68"
+  },
+  {
+    "case": 2,
+    "bytes": 49152,
+    "match": true,
+    "sha256": "7980c4f53307b5b6b6060620757755ff08466d9d2966b7158e4419417b142497"
+  },
+  {
+    "case": 3,
+    "bytes": 49152,
+    "match": true,
+    "sha256": "ddb45821c587164fa8188b8f772b48091112995d47f800071c8f55bff25c3f85"
+  },
+  {
+    "case": 4,
+    "bytes": 49152,
+    "match": true,
+    "sha256": "197c703fae926cc2a63c90f40128e81af4793fb1fd53e78020090938da0cf948"
+  },
+  {
+    "case": 5,
+    "bytes": 49152,
+    "match": true,
+    "sha256": "e05675e9d393d2328872b67d1003b9922398005b39c630cd360e649ab9c33035"
+  },
+  {
+    "case": 6,
+    "bytes": 49152,
+    "match": true,
+    "sha256": "20d7d0d2a9fce5dfa3c226701a62550a7a806c60d87f4a4fc690787c24894e06"
+  },
+  {
+    "case": 7,
+    "bytes": 49152,
+    "match": true,
+    "sha256": "b2d1540fdaa6b2f920a3690683c514fb3ea30a049c235af083eb95d8c10d2992"
+  }
+]

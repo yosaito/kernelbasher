@@ -1,11 +1,12 @@
 """Portable tests using generated data and the supplied presets/meshes, no BIOS needed."""
 from pathlib import Path
-import hashlib,json,random,struct,subprocess,tempfile
+import hashlib,json,os,random,struct,subprocess,tempfile
 ROOT=Path(__file__).resolve().parents[1]
-EXE=ROOT/'build/KernelBasher-cli.exe'
+EXE=os.environ.get('KB_EXE',str(ROOT/'build/KernelBasher-cli.exe'))
+RUNNER=json.loads(os.environ.get('KB_RUNNER','[]'))
 results=[]
 def call(*args,success=True):
- r=subprocess.run([str(EXE),*map(str,args)],capture_output=True,text=True,timeout=45)
+ r=subprocess.run([*RUNNER,str(EXE),*map(str,args)],capture_output=True,text=True,timeout=45)
  if (r.returncode==0)!=success:raise AssertionError((args,r.returncode,r.stdout,r.stderr))
  return r
 def record(name,**fields):
@@ -24,6 +25,10 @@ with tempfile.TemporaryDirectory(prefix='kernelbasher-tests-') as temp:
   src=p/(name+'.raw');packed=p/(name+'.lzx');out=p/(name+'.decoded');src.write_bytes(raw)
   call('test-codec',src,packed);call('test-decode',packed,out,len(raw))
   assert out.read_bytes()==raw
+  # The original immediate at 0040a488 is 12,000,000. This guards against
+  # mistaking Ghidra's DAT label for a relocatable address under Windows/Wine.
+  bits=''.join(f'{word:016b}' for word in struct.unpack('<3H',packed.read_bytes()[4:10]))
+  assert bits[0]=='1' and int(bits[1:33],2)==12000000
   record('LZX round trip',fixture=name,input_bytes=len(raw),compressed_bytes=packed.stat().st_size,sha256=hashlib.sha256(raw).hexdigest())
  # Synthetic PE/.data and Evox ROM fixture: exercises container layout independently
  # of recognition checks. Contains no Microsoft Xbox kernel or bootable BIOS.

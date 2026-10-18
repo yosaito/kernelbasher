@@ -65,7 +65,11 @@ while a<hi:
      ops=ops.replace(hex(addr),expr)
    elif op.type==capstone.CS_OP_IMM and not (mnemonic.startswith('j') or mnemonic in ['call','loop']):
     addr=op.imm
-    if lo<=addr<hi: ops=ops.replace(hex(addr),'OFFSET '+label(addr))
+    # 0040a488 passes the literal Intel E8 transform size (12,000,000),
+    # despite Ghidra labelling that immediate as &DAT_00b71b00. It is never
+    # dereferenced. Relocating it makes compressed bytes depend on ASLR.
+    if a==0x40a488 and addr==0xb71b00: pass
+    elif lo<=addr<hi: ops=ops.replace(hex(addr),'OFFSET '+label(addr))
     elif addr in globals_seen: ops=ops.replace(hex(addr),'OFFSET '+data_expr(addr))
   # MASM hex literal syntax; movsd's implicit operands and REP spelling.
   ops=re.sub(r'0x([0-9a-f]+)',lambda m:'0'+m[1]+'h',ops)

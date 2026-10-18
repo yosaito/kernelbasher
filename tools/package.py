@@ -6,7 +6,7 @@ DIST=ROOT/'dist';DIST.mkdir(exist_ok=True)
 source=[]
 for name in ['README.md','build.cmd','.gitignore','.gitattributes']:
  source.append(ROOT/name)
-for folder in ['src','docs','original','third_party']:
+for folder in ['src','docs','original','third_party','web']:
  source.extend(p for p in (ROOT/folder).rglob('*') if p.is_file() and 'out' not in p.relative_to(ROOT/folder).parts and '__pycache__' not in p.parts)
 source.extend(p for p in (ROOT/'tools').iterdir() if p.is_file() and p.suffix in ['.py','.java','.txt','.mjs','.cpp'])
 for folder in ['evidence/ghidra','evidence/differential']:
