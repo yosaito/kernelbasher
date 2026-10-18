@@ -1,0 +1,11 @@
+{
+  "program": "KernelBasher.exe",
+  "image_base": "00400000",
+  "language": "x86:LE:32:default",
+  "compiler_spec": "windows",
+  "function_count": 342,
+  "decompiled": 341,
+  "failed": 1,
+  "cancelled": false,
+  "limitations": "Static auto-analysis and machine pseudocode only; no target execution, behavioral validation, or proof that all functions were discovered. Indirect call edges may be unresolved."
+}

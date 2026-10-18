@@ -1,0 +1,1440 @@
+{
+  "100": {
+    "extended": false,
+    "help_id": 0,
+    "style": 2160591040,
+    "exstyle": 0,
+    "x": 0,
+    "y": 0,
+    "width": 235,
+    "height": 49,
+    "menu": "",
+    "window_class": "",
+    "title": "About KernelBasher",
+    "font": {
+      "size": 8,
+      "weight": 400,
+      "italic": 0,
+      "charset": 1,
+      "name": "MS Sans Serif"
+    },
+    "controls": [
+      {
+        "id": 65535,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177283,
+        "x": 11,
+        "y": 17,
+        "width": 21,
+        "height": 20,
+        "window_class": {
+          "ordinal": 130
+        },
+        "title": {
+          "ordinal": 128
+        }
+      },
+      {
+        "id": 65535,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342308480,
+        "x": 40,
+        "y": 10,
+        "width": 119,
+        "height": 8,
+        "window_class": {
+          "ordinal": 130
+        },
+        "title": "Kernel Basher 1.0"
+      },
+      {
+        "id": 65535,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342308352,
+        "x": 39,
+        "y": 28,
+        "width": 165,
+        "height": 8,
+        "window_class": {
+          "ordinal": 130
+        },
+        "title": "Team KernelBase.Com"
+      },
+      {
+        "id": 1,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342373889,
+        "x": 178,
+        "y": 7,
+        "width": 50,
+        "height": 14,
+        "window_class": {
+          "ordinal": 128
+        },
+        "title": "OK"
+      }
+    ]
+  },
+  "102": {
+    "extended": true,
+    "help_id": 0,
+    "style": 2429028416,
+    "exstyle": 262272,
+    "x": 0,
+    "y": 0,
+    "width": 332,
+    "height": 319,
+    "menu": "",
+    "window_class": "",
+    "title": " -{ Kernel Basher 1.1 }- Team KernelBase.com",
+    "font": {
+      "size": 8,
+      "weight": 0,
+      "italic": 0,
+      "charset": 1,
+      "name": "Arial"
+    },
+    "controls": [
+      {
+        "id": 5054,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177306,
+        "x": 13,
+        "y": 27,
+        "width": 20,
+        "height": 48,
+        "window_class": "msctls_trackbar32",
+        "title": "Slider17"
+      },
+      {
+        "id": 5055,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177306,
+        "x": 36,
+        "y": 27,
+        "width": 20,
+        "height": 48,
+        "window_class": "msctls_trackbar32",
+        "title": "Slider18"
+      },
+      {
+        "id": 5056,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177306,
+        "x": 59,
+        "y": 27,
+        "width": 20,
+        "height": 48,
+        "window_class": "msctls_trackbar32",
+        "title": "Slider19"
+      },
+      {
+        "id": 5036,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177306,
+        "x": 88,
+        "y": 27,
+        "width": 17,
+        "height": 48,
+        "window_class": "msctls_trackbar32",
+        "title": "Slider8"
+      },
+      {
+        "id": 5037,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177306,
+        "x": 113,
+        "y": 27,
+        "width": 17,
+        "height": 48,
+        "window_class": "msctls_trackbar32",
+        "title": "Slider9"
+      },
+      {
+        "id": 5038,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177306,
+        "x": 138,
+        "y": 27,
+        "width": 17,
+        "height": 48,
+        "window_class": "msctls_trackbar32",
+        "title": "Slider10"
+      },
+      {
+        "id": 5025,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177306,
+        "x": 169,
+        "y": 27,
+        "width": 17,
+        "height": 48,
+        "window_class": "msctls_trackbar32",
+        "title": "Slider4"
+      },
+      {
+        "id": 5019,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177306,
+        "x": 193,
+        "y": 27,
+        "width": 17,
+        "height": 48,
+        "window_class": "msctls_trackbar32",
+        "title": "Slider2"
+      },
+      {
+        "id": 5024,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177306,
+        "x": 217,
+        "y": 27,
+        "width": 17,
+        "height": 48,
+        "window_class": "msctls_trackbar32",
+        "title": "Slider3"
+      },
+      {
+        "id": 5026,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177306,
+        "x": 249,
+        "y": 27,
+        "width": 17,
+        "height": 48,
+        "window_class": "msctls_trackbar32",
+        "title": "Slider5"
+      },
+      {
+        "id": 5027,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177306,
+        "x": 273,
+        "y": 27,
+        "width": 17,
+        "height": 48,
+        "window_class": "msctls_trackbar32",
+        "title": "Slider6"
+      },
+      {
+        "id": 5028,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177306,
+        "x": 297,
+        "y": 27,
+        "width": 17,
+        "height": 48,
+        "window_class": "msctls_trackbar32",
+        "title": "Slider7"
+      },
+      {
+        "id": 5060,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177306,
+        "x": 13,
+        "y": 126,
+        "width": 17,
+        "height": 48,
+        "window_class": "msctls_trackbar32",
+        "title": "Slider20"
+      },
+      {
+        "id": 5061,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177306,
+        "x": 33,
+        "y": 126,
+        "width": 17,
+        "height": 48,
+        "window_class": "msctls_trackbar32",
+        "title": "Slider21"
+      },
+      {
+        "id": 5062,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177306,
+        "x": 55,
+        "y": 126,
+        "width": 17,
+        "height": 48,
+        "window_class": "msctls_trackbar32",
+        "title": "Slider22"
+      },
+      {
+        "id": 5044,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177306,
+        "x": 91,
+        "y": 127,
+        "width": 17,
+        "height": 48,
+        "window_class": "msctls_trackbar32",
+        "title": "Slider12"
+      },
+      {
+        "id": 5045,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177306,
+        "x": 117,
+        "y": 127,
+        "width": 17,
+        "height": 48,
+        "window_class": "msctls_trackbar32",
+        "title": "Slider13"
+      },
+      {
+        "id": 5046,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177306,
+        "x": 143,
+        "y": 127,
+        "width": 17,
+        "height": 48,
+        "window_class": "msctls_trackbar32",
+        "title": "Slider14"
+      },
+      {
+        "id": 5047,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177306,
+        "x": 169,
+        "y": 127,
+        "width": 17,
+        "height": 48,
+        "window_class": "msctls_trackbar32",
+        "title": "Slider15"
+      },
+      {
+        "id": 5052,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177306,
+        "x": 203,
+        "y": 127,
+        "width": 17,
+        "height": 48,
+        "window_class": "msctls_trackbar32",
+        "title": "Slider16"
+      },
+      {
+        "id": 1010,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177283,
+        "x": 249,
+        "y": 120,
+        "width": 70,
+        "height": 9,
+        "window_class": {
+          "ordinal": 128
+        },
+        "title": "White Splash Screen"
+      },
+      {
+        "id": 1012,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342308355,
+        "x": 249,
+        "y": 134,
+        "width": 70,
+        "height": 10,
+        "window_class": {
+          "ordinal": 128
+        },
+        "title": "White animation"
+      },
+      {
+        "id": 1013,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342308355,
+        "x": 249,
+        "y": 149,
+        "width": 69,
+        "height": 10,
+        "window_class": {
+          "ordinal": 128
+        },
+        "title": "Keep Machinery"
+      },
+      {
+        "id": 5066,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1073741850,
+        "x": 231,
+        "y": 264,
+        "width": 17,
+        "height": 24,
+        "window_class": "msctls_trackbar32",
+        "title": "Slider1"
+      },
+      {
+        "id": 5067,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1073741850,
+        "x": 235,
+        "y": 274,
+        "width": 17,
+        "height": 6,
+        "window_class": "msctls_trackbar32",
+        "title": "Slider2"
+      },
+      {
+        "id": 5068,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1073741850,
+        "x": 237,
+        "y": 269,
+        "width": 17,
+        "height": 6,
+        "window_class": "msctls_trackbar32",
+        "title": "Slider3"
+      },
+      {
+        "id": 1014,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1344274435,
+        "x": 10,
+        "y": 219,
+        "width": 131,
+        "height": 121,
+        "window_class": {
+          "ordinal": 133
+        },
+        "title": ""
+      },
+      {
+        "id": 5079,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177283,
+        "x": 12,
+        "y": 233,
+        "width": 92,
+        "height": 10,
+        "window_class": {
+          "ordinal": 128
+        },
+        "title": "Random Camera Motion"
+      },
+      {
+        "id": 5000,
+        "help_id": 0,
+        "exstyle": 32,
+        "style": 1342308355,
+        "x": 12,
+        "y": 247,
+        "width": 67,
+        "height": 10,
+        "window_class": {
+          "ordinal": 128
+        },
+        "title": "XBOX Logo Text"
+      },
+      {
+        "id": 1025,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342341120,
+        "x": 88,
+        "y": 283,
+        "width": 50,
+        "height": 14,
+        "window_class": {
+          "ordinal": 128
+        },
+        "title": "&Open"
+      },
+      {
+        "id": 1006,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1344274691,
+        "x": 271,
+        "y": 222,
+        "width": 50,
+        "height": 61,
+        "window_class": {
+          "ordinal": 133
+        },
+        "title": ""
+      },
+      {
+        "id": 1024,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342341120,
+        "x": 270,
+        "y": 240,
+        "width": 50,
+        "height": 14,
+        "window_class": {
+          "ordinal": 128
+        },
+        "title": "&Open"
+      },
+      {
+        "id": 1000,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342341120,
+        "x": 270,
+        "y": 261,
+        "width": 50,
+        "height": 14,
+        "window_class": {
+          "ordinal": 128
+        },
+        "title": "&SaveAs"
+      },
+      {
+        "id": 5088,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342210048,
+        "x": 149,
+        "y": 283,
+        "width": 50,
+        "height": 14,
+        "window_class": {
+          "ordinal": 128
+        },
+        "title": "Load Preset"
+      },
+      {
+        "id": 5087,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342210048,
+        "x": 149,
+        "y": 261,
+        "width": 50,
+        "height": 14,
+        "window_class": {
+          "ordinal": 128
+        },
+        "title": "Save Preset"
+      },
+      {
+        "id": 2,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342341120,
+        "x": 270,
+        "y": 283,
+        "width": 50,
+        "height": 14,
+        "window_class": {
+          "ordinal": 128
+        },
+        "title": "E&xit"
+      },
+      {
+        "id": 4294967295,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "x": 7,
+        "y": 7,
+        "width": 75,
+        "height": 101,
+        "window_class": {
+          "ordinal": 128
+        },
+        "title": "Fog Colour"
+      },
+      {
+        "id": 4294967295,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "x": 84,
+        "y": 108,
+        "width": 153,
+        "height": 101,
+        "window_class": {
+          "ordinal": 128
+        },
+        "title": "Flubber Options"
+      },
+      {
+        "id": 4294967295,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "x": 84,
+        "y": 7,
+        "width": 75,
+        "height": 101,
+        "window_class": {
+          "ordinal": 128
+        },
+        "title": "Initial Glow"
+      },
+      {
+        "id": 4294967295,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "x": 161,
+        "y": 7,
+        "width": 75,
+        "height": 101,
+        "window_class": {
+          "ordinal": 128
+        },
+        "title": "Main Glow"
+      },
+      {
+        "id": 4294967295,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "x": 7,
+        "y": 108,
+        "width": 75,
+        "height": 101,
+        "window_class": {
+          "ordinal": 128
+        },
+        "title": "End Glow"
+      },
+      {
+        "id": 4294967295,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "x": 237,
+        "y": 7,
+        "width": 88,
+        "height": 101,
+        "window_class": {
+          "ordinal": 128
+        },
+        "title": "Scene Geometry"
+      },
+      {
+        "id": 4294967295,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342308359,
+        "x": 240,
+        "y": 109,
+        "width": 85,
+        "height": 83,
+        "window_class": {
+          "ordinal": 128
+        },
+        "title": "Other Options"
+      },
+      {
+        "id": 4294967295,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "x": 7,
+        "y": 209,
+        "width": 136,
+        "height": 36,
+        "window_class": {
+          "ordinal": 128
+        },
+        "title": "Camera Options"
+      },
+      {
+        "id": 5005,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342308359,
+        "x": 7,
+        "y": 246,
+        "width": 136,
+        "height": 56,
+        "window_class": {
+          "ordinal": 128
+        },
+        "title": ""
+      },
+      {
+        "id": 5006,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342308352,
+        "x": 13,
+        "y": 259,
+        "width": 30,
+        "height": 9,
+        "window_class": {
+          "ordinal": 130
+        },
+        "title": ".X File :"
+      },
+      {
+        "id": 5007,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342308352,
+        "x": 13,
+        "y": 275,
+        "width": 29,
+        "height": 11,
+        "window_class": {
+          "ordinal": 130
+        },
+        "title": "Indices :"
+      },
+      {
+        "id": 5008,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342308352,
+        "x": 13,
+        "y": 288,
+        "width": 29,
+        "height": 11,
+        "window_class": {
+          "ordinal": 130
+        },
+        "title": "Vertices :"
+      },
+      {
+        "id": 5004,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342310528,
+        "x": 45,
+        "y": 259,
+        "width": 56,
+        "height": 12,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 5002,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342310528,
+        "x": 45,
+        "y": 275,
+        "width": 19,
+        "height": 12,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 5003,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342310528,
+        "x": 45,
+        "y": 288,
+        "width": 19,
+        "height": 12,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 4294967295,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342308359,
+        "x": 145,
+        "y": 209,
+        "width": 180,
+        "height": 95,
+        "window_class": {
+          "ordinal": 128
+        },
+        "title": "File Options"
+      },
+      {
+        "id": 5010,
+        "help_id": 0,
+        "exstyle": 32,
+        "style": 1342310528,
+        "x": 186,
+        "y": 221,
+        "width": 75,
+        "height": 13,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 5014,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342179712,
+        "x": 186,
+        "y": 236,
+        "width": 75,
+        "height": 12,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 5021,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342187648,
+        "x": 171,
+        "y": 74,
+        "width": 17,
+        "height": 12,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 5022,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342187648,
+        "x": 197,
+        "y": 75,
+        "width": 17,
+        "height": 12,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 5023,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342187648,
+        "x": 217,
+        "y": 75,
+        "width": 17,
+        "height": 12,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 4294967295,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342308352,
+        "x": 177,
+        "y": 19,
+        "width": 58,
+        "height": 13,
+        "window_class": {
+          "ordinal": 130
+        },
+        "title": "R         G         B"
+      },
+      {
+        "id": 4294967295,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342308352,
+        "x": 256,
+        "y": 19,
+        "width": 61,
+        "height": 8,
+        "window_class": {
+          "ordinal": 130
+        },
+        "title": "R         G          B"
+      },
+      {
+        "id": 5033,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342187648,
+        "x": 246,
+        "y": 75,
+        "width": 17,
+        "height": 12,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 5034,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342187648,
+        "x": 270,
+        "y": 75,
+        "width": 17,
+        "height": 12,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 5035,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342187648,
+        "x": 296,
+        "y": 75,
+        "width": 17,
+        "height": 12,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 4294967295,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342308352,
+        "x": 95,
+        "y": 18,
+        "width": 58,
+        "height": 8,
+        "window_class": {
+          "ordinal": 130
+        },
+        "title": "R         G          B"
+      },
+      {
+        "id": 5039,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342187648,
+        "x": 92,
+        "y": 75,
+        "width": 17,
+        "height": 12,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 5040,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342187648,
+        "x": 116,
+        "y": 75,
+        "width": 17,
+        "height": 12,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 5041,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342187648,
+        "x": 140,
+        "y": 75,
+        "width": 17,
+        "height": 12,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 5042,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1073741850,
+        "x": 231,
+        "y": 274,
+        "width": 17,
+        "height": 6,
+        "window_class": "msctls_trackbar32",
+        "title": "Slider11"
+      },
+      {
+        "id": 5043,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1073752192,
+        "x": 233,
+        "y": 269,
+        "width": 17,
+        "height": 12,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 4294967295,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342308352,
+        "x": 97,
+        "y": 120,
+        "width": 84,
+        "height": 8,
+        "window_class": {
+          "ordinal": 130
+        },
+        "title": "R          G           B          A"
+      },
+      {
+        "id": 5048,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342187648,
+        "x": 89,
+        "y": 176,
+        "width": 17,
+        "height": 13,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 5049,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342187648,
+        "x": 115,
+        "y": 176,
+        "width": 17,
+        "height": 13,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 5050,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342187648,
+        "x": 141,
+        "y": 176,
+        "width": 17,
+        "height": 13,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 5051,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342187648,
+        "x": 167,
+        "y": 176,
+        "width": 17,
+        "height": 13,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 4294967295,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342308352,
+        "x": 199,
+        "y": 120,
+        "width": 30,
+        "height": 8,
+        "window_class": {
+          "ordinal": 130
+        },
+        "title": "Radius"
+      },
+      {
+        "id": 5053,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342187648,
+        "x": 205,
+        "y": 176,
+        "width": 17,
+        "height": 13,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 4294967295,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342308352,
+        "x": 19,
+        "y": 17,
+        "width": 58,
+        "height": 8,
+        "window_class": {
+          "ordinal": 130
+        },
+        "title": "R         G         B"
+      },
+      {
+        "id": 5057,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342187648,
+        "x": 15,
+        "y": 75,
+        "width": 17,
+        "height": 12,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 5058,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342187648,
+        "x": 37,
+        "y": 75,
+        "width": 17,
+        "height": 12,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 5059,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342187648,
+        "x": 61,
+        "y": 75,
+        "width": 17,
+        "height": 12,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 5063,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342187648,
+        "x": 15,
+        "y": 176,
+        "width": 15,
+        "height": 14,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 5064,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342187648,
+        "x": 33,
+        "y": 176,
+        "width": 20,
+        "height": 14,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 5065,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342187648,
+        "x": 55,
+        "y": 176,
+        "width": 18,
+        "height": 15,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 5069,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1073752192,
+        "x": 229,
+        "y": 267,
+        "width": 17,
+        "height": 13,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 5070,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1073752192,
+        "x": 227,
+        "y": 266,
+        "width": 17,
+        "height": 13,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 5071,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1073752192,
+        "x": 230,
+        "y": 266,
+        "width": 17,
+        "height": 13,
+        "window_class": {
+          "ordinal": 129
+        },
+        "title": ""
+      },
+      {
+        "id": 4294967295,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342308352,
+        "x": 13,
+        "y": 119,
+        "width": 54,
+        "height": 8,
+        "window_class": {
+          "ordinal": 130
+        },
+        "title": "  R         G        B"
+      },
+      {
+        "id": 5074,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1350565888,
+        "x": 7,
+        "y": 308,
+        "width": 318,
+        "height": 6,
+        "window_class": "msctls_progress32",
+        "title": "Progress1"
+      },
+      {
+        "id": 5080,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1350696960,
+        "x": 12,
+        "y": 89,
+        "width": 65,
+        "height": 14,
+        "window_class": {
+          "ordinal": 130
+        },
+        "title": "                                "
+      },
+      {
+        "id": 5081,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1350696972,
+        "x": 89,
+        "y": 89,
+        "width": 65,
+        "height": 14,
+        "window_class": {
+          "ordinal": 130
+        },
+        "title": "                                "
+      },
+      {
+        "id": 5082,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1350696960,
+        "x": 166,
+        "y": 89,
+        "width": 65,
+        "height": 14,
+        "window_class": {
+          "ordinal": 130
+        },
+        "title": "                                "
+      },
+      {
+        "id": 5083,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1350696960,
+        "x": 242,
+        "y": 89,
+        "width": 78,
+        "height": 14,
+        "window_class": {
+          "ordinal": 130
+        },
+        "title": "                                "
+      },
+      {
+        "id": 5084,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1350696960,
+        "x": 12,
+        "y": 191,
+        "width": 65,
+        "height": 14,
+        "window_class": {
+          "ordinal": 130
+        },
+        "title": "                                "
+      },
+      {
+        "id": 5085,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1350696960,
+        "x": 87,
+        "y": 191,
+        "width": 145,
+        "height": 14,
+        "window_class": {
+          "ordinal": 130
+        },
+        "title": "                                "
+      },
+      {
+        "id": 5086,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1082261504,
+        "x": 239,
+        "y": 270,
+        "width": 8,
+        "height": 8,
+        "window_class": {
+          "ordinal": 130
+        },
+        "title": "                                "
+      },
+      {
+        "id": 5093,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "x": 249,
+        "y": 164,
+        "width": 70,
+        "height": 10,
+        "window_class": {
+          "ordinal": 128
+        },
+        "title": "Wireframe Scene"
+      },
+      {
+        "id": 5094,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "x": 249,
+        "y": 179,
+        "width": 55,
+        "height": 10,
+        "window_class": {
+          "ordinal": 128
+        },
+        "title": "Torn X Logo"
+      },
+      {
+        "id": 5095,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1073807363,
+        "x": 249,
+        "y": 194,
+        "width": 59,
+        "height": 10,
+        "window_class": {
+          "ordinal": 128
+        },
+        "title": "Scenery Mod"
+      },
+      {
+        "id": 4294967295,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342308352,
+        "x": 151,
+        "y": 221,
+        "width": 36,
+        "height": 8,
+        "window_class": {
+          "ordinal": 130
+        },
+        "title": "File Name :"
+      },
+      {
+        "id": 4294967295,
+        "help_id": 0,
+        "exstyle": 0,
+        "style": 1342308352,
+        "x": 158,
+        "y": 236,
+        "width": 27,
+        "height": 8,
+        "window_class": {
+          "ordinal": 130
+        },
+        "title": "Bios ID :"
+      }
+    ]
+  }
+}

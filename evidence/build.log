@@ -1,0 +1,6 @@
+ Assembling: src\m8_codec.asm
+core.cpp
+patch_engine.cpp
+cli.cpp
+Generating Code...
+gui.cpp

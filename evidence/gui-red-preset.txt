@@ -1,0 +1,161 @@
+Window: "KernelBasher 1.1 - reconstructed source build", App: KernelBasher.exe.
+	0 dialog KernelBasher 1.1 - reconstructed source build Secondary Actions: Raise
+		1 slider (settable, float) Value: 0 ID: 5054
+			2 button Page up
+			3 thumb Position
+			4 button Page down
+		5 slider (settable, float) Value: 100 ID: 5055
+			6 button Page up
+			7 thumb Position
+			8 button Page down
+		9 slider (settable, float) Value: 72 ID: 5056
+			10 button Page up
+			11 thumb Position
+			12 button Page down
+		13 slider (settable, float) Value: 0 ID: 5036
+			14 button Page up
+			15 thumb Position
+			16 button Page down
+		17 slider (settable, float) Value: 100 ID: 5037
+			18 button Page up
+			19 thumb Position
+			20 button Page down
+		21 slider (settable, float) Value: 72 ID: 5038
+			22 button Page up
+			23 thumb Position
+			24 button Page down
+		25 slider (settable, float) Value: 0 ID: 5025
+			26 button Page up
+			27 thumb Position
+			28 button Page down
+		29 slider (settable, float) Value: 100 ID: 5019
+			30 button Page up
+			31 thumb Position
+			32 button Page down
+		33 slider (settable, float) Value: 72 ID: 5024
+			34 button Page up
+			35 thumb Position
+			36 button Page down
+		37 slider (settable, float) Value: 0 ID: 5026
+			38 button Page up
+			39 thumb Position
+			40 button Page down
+		41 slider (settable, float) Value: 100 ID: 5027
+			42 button Page up
+			43 thumb Position
+			44 button Page down
+		45 slider (settable, float) Value: 72 ID: 5028
+			46 button Page up
+			47 thumb Position
+			48 button Page down
+		49 slider (settable, float) Value: 0 ID: 5060
+			50 button Page up
+			51 thumb Position
+			52 button Page down
+		53 slider (settable, float) Value: 100 ID: 5061
+			54 button Page up
+			55 thumb Position
+			56 button Page down
+		57 slider (settable, float) Value: 72 ID: 5062
+			58 button Page up
+			59 thumb Position
+			60 button Page down
+		61 slider (settable, float) Value: 0 ID: 5044
+			62 button Page up
+			63 thumb Position
+			64 button Page down
+		65 slider (settable, float) Value: 100 ID: 5045
+			66 button Page up
+			67 thumb Position
+			68 button Page down
+		69 slider (settable, float) Value: 72 ID: 5046
+			70 button Page up
+			71 thumb Position
+			72 button Page down
+		73 slider (settable, float) Value: 0 ID: 5047
+			74 button Page up
+			75 thumb Position
+			76 button Page down
+		77 slider (settable, float) Value: 49 ID: 5052
+			78 button Page up
+			79 thumb Position
+			80 button Page down
+		81 check box (disabled) White Splash Screen ID: 1010
+		82 check box (disabled) White animation ID: 1012
+		83 check box Keep Machinery ID: 1013
+		84 combo box (settable, string) Value: 1(Default) ID: 1014
+			85 text (settable, string) Value: 1(Default)
+			86 button Open ID: DropDown
+		87 check box Random Camera Motion ID: 5079
+		88 check box XBOX Logo Text ID: 5000
+		89 button (disabled) Open ID: 1025
+		90 combo box (settable, string) Value: 256k ID: 1006
+			91 text (settable, string) Value: 256k
+			92 button Open ID: DropDown
+		93 button Open ID: 1024
+		94 button (disabled) SaveAs ID: 1000
+		95 button Load Preset ID: 5088
+		96 button Save Preset ID: 5087
+		97 button Exit ID: 2
+		98 group Fog Colour
+		99 group Flubber Options
+		100 group Initial Glow
+		101 group Main Glow
+		102 group End Glow
+		103 group Scene Geometry
+		104 group Other Options
+		105 group Camera Options
+		106 group Camera Options ID: 5005
+		107 text .X File : ID: 5006
+		108 text Indices : ID: 5007
+		109 text Vertices : ID: 5008
+		110 edit Vertices : ID: 5004
+		111 edit ID: 5002
+		112 edit ID: 5003
+		113 group File Options
+		114 edit File Options ID: 5010
+		115 edit ID: 5014
+		116 edit Value: 255 ID: 5021
+		117 edit Value: 0 ID: 5022
+		118 edit Value: 70 ID: 5023
+		119 text R G B
+		120 text R G B
+		121 edit R G B Value: 255 ID: 5033
+		122 edit R G B Value: 0 ID: 5034
+		123 edit R G B Value: 70 ID: 5035
+		124 text R G B
+		125 edit R G B Value: 255 ID: 5039
+		126 edit R G B Value: 0 ID: 5040
+		127 edit R G B Value: 70 ID: 5041
+		128 text R G B A
+		129 edit R G B A Value: 255 ID: 5048
+		130 edit R G B A Value: 0 ID: 5049
+		131 edit R G B A Value: 70 ID: 5050
+		132 edit R G B A Value: 255 ID: 5051
+		133 text Radius
+		134 edit Radius Value: 3.250 ID: 5053
+		135 text R G B
+		136 edit R G B Value: 255 ID: 5057
+		137 edit R G B Value: 0 ID: 5058
+		138 edit R G B Value: 70 ID: 5059
+		139 edit R G B Value: 255 ID: 5063
+		140 edit R G B Value: 0 ID: 5064
+		141 edit R G B Value: 70 ID: 5065
+		142 text R G B
+		143 progress bar R G B Value: 0 ID: 5074
+		144 text  ID: 5080
+		145 text  ID: 5081
+		146 text  ID: 5082
+		147 text  ID: 5083
+		148 text  ID: 5084
+		149 text  ID: 5085
+		150 check box Wireframe Scene ID: 5093
+		151 check box (disabled) Torn X Logo ID: 5094
+		152 text File Name :
+		153 text Bios ID :
+		154 title bar (settable, string) Value: KernelBasher 1.1 - reconstructed source build
+			155 menu bar System ID: MenuBar
+				156 menu item System
+			157 button Close
+
+The focused UI element is 0 dialog KernelBasher 1.1 - reconstructed source build Secondary Actions: Raise.

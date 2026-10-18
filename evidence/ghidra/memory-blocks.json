@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Headers",
+    "start": "00400000",
+    "end": "00400fff",
+    "size": 4096,
+    "execute": false,
+    "initialized": true
+  },
+  {
+    "name": ".text",
+    "start": "00401000",
+    "end": "00411fff",
+    "size": 69632,
+    "execute": true,
+    "initialized": true
+  },
+  {
+    "name": ".rdata",
+    "start": "00412000",
+    "end": "00414fff",
+    "size": 12288,
+    "execute": false,
+    "initialized": true
+  },
+  {
+    "name": ".data",
+    "start": "00415000",
+    "end": "01a215cb",
+    "size": 23119308,
+    "execute": false,
+    "initialized": true
+  },
+  {
+    "name": ".rsrc",
+    "start": "01a22000",
+    "end": "01a27fff",
+    "size": 24576,
+    "execute": false,
+    "initialized": true
+  },
+  {
+    "name": "tdb",
+    "start": "ffdff000",
+    "end": "ffdfffff",
+    "size": 4096,
+    "execute": false,
+    "initialized": true
+  }
+]

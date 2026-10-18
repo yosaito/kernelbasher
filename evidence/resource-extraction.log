@@ -1,0 +1,120 @@
+{
+  "resources": 8,
+  "dialogs": {
+    "100": 4,
+    "102": 99
+  },
+  "imports": {
+    "xbflash.dll": 3,
+    "MFC71.DLL": 197,
+    "MSVCR71.dll": 44,
+    "KERNEL32.dll": 12,
+    "USER32.dll": 11,
+    "GDI32.dll": 9
+  }
+}
+DIALOG 100 About KernelBasher
+65535 {'ordinal': 130} {'ordinal': 128}
+65535 {'ordinal': 130} Kernel Basher 1.0
+65535 {'ordinal': 130} Team KernelBase.Com
+1 {'ordinal': 128} OK
+DIALOG 102  -{ Kernel Basher 1.1 }- Team KernelBase.com
+5054 msctls_trackbar32 Slider17
+5055 msctls_trackbar32 Slider18
+5056 msctls_trackbar32 Slider19
+5036 msctls_trackbar32 Slider8
+5037 msctls_trackbar32 Slider9
+5038 msctls_trackbar32 Slider10
+5025 msctls_trackbar32 Slider4
+5019 msctls_trackbar32 Slider2
+5024 msctls_trackbar32 Slider3
+5026 msctls_trackbar32 Slider5
+5027 msctls_trackbar32 Slider6
+5028 msctls_trackbar32 Slider7
+5060 msctls_trackbar32 Slider20
+5061 msctls_trackbar32 Slider21
+5062 msctls_trackbar32 Slider22
+5044 msctls_trackbar32 Slider12
+5045 msctls_trackbar32 Slider13
+5046 msctls_trackbar32 Slider14
+5047 msctls_trackbar32 Slider15
+5052 msctls_trackbar32 Slider16
+1010 {'ordinal': 128} White Splash Screen
+1012 {'ordinal': 128} White animation
+1013 {'ordinal': 128} Keep Machinery
+5066 msctls_trackbar32 Slider1
+5067 msctls_trackbar32 Slider2
+5068 msctls_trackbar32 Slider3
+1014 {'ordinal': 133} 
+5079 {'ordinal': 128} Random Camera Motion
+5000 {'ordinal': 128} XBOX Logo Text
+1025 {'ordinal': 128} &Open
+1006 {'ordinal': 133} 
+1024 {'ordinal': 128} &Open
+1000 {'ordinal': 128} &SaveAs
+5088 {'ordinal': 128} Load Preset
+5087 {'ordinal': 128} Save Preset
+2 {'ordinal': 128} E&xit
+4294967295 {'ordinal': 128} Fog Colour
+4294967295 {'ordinal': 128} Flubber Options
+4294967295 {'ordinal': 128} Initial Glow
+4294967295 {'ordinal': 128} Main Glow
+4294967295 {'ordinal': 128} End Glow
+4294967295 {'ordinal': 128} Scene Geometry
+4294967295 {'ordinal': 128} Other Options
+4294967295 {'ordinal': 128} Camera Options
+5005 {'ordinal': 128} 
+5006 {'ordinal': 130} .X File :
+5007 {'ordinal': 130} Indices :
+5008 {'ordinal': 130} Vertices :
+5004 {'ordinal': 129} 
+5002 {'ordinal': 129} 
+5003 {'ordinal': 129} 
+4294967295 {'ordinal': 128} File Options
+5010 {'ordinal': 129} 
+5014 {'ordinal': 129} 
+5021 {'ordinal': 129} 
+5022 {'ordinal': 129} 
+5023 {'ordinal': 129} 
+4294967295 {'ordinal': 130} R         G         B
+4294967295 {'ordinal': 130} R         G          B
+5033 {'ordinal': 129} 
+5034 {'ordinal': 129} 
+5035 {'ordinal': 129} 
+4294967295 {'ordinal': 130} R         G          B
+5039 {'ordinal': 129} 
+5040 {'ordinal': 129} 
+5041 {'ordinal': 129} 
+5042 msctls_trackbar32 Slider11
+5043 {'ordinal': 129} 
+4294967295 {'ordinal': 130} R          G           B          A
+5048 {'ordinal': 129} 
+5049 {'ordinal': 129} 
+5050 {'ordinal': 129} 
+5051 {'ordinal': 129} 
+4294967295 {'ordinal': 130} Radius
+5053 {'ordinal': 129} 
+4294967295 {'ordinal': 130} R         G         B
+5057 {'ordinal': 129} 
+5058 {'ordinal': 129} 
+5059 {'ordinal': 129} 
+5063 {'ordinal': 129} 
+5064 {'ordinal': 129} 
+5065 {'ordinal': 129} 
+5069 {'ordinal': 129} 
+5070 {'ordinal': 129} 
+5071 {'ordinal': 129} 
+4294967295 {'ordinal': 130}   R         G        B
+5074 msctls_progress32 Progress1
+5080 {'ordinal': 130}                                 
+5081 {'ordinal': 130}                                 
+5082 {'ordinal': 130}                                 
+5083 {'ordinal': 130}                                 
+5084 {'ordinal': 130}                                 
+5085 {'ordinal': 130}                                 
+5086 {'ordinal': 130}                                 
+5093 {'ordinal': 128} Wireframe Scene
+5094 {'ordinal': 128} Torn X Logo
+5095 {'ordinal': 128} Scenery Mod
+4294967295 {'ordinal': 130} File Name :
+4294967295 {'ordinal': 130} Bios ID :

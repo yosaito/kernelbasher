@@ -1,0 +1,34 @@
+[
+  {
+    "test": "scanner versus original x86",
+    "kind": 1,
+    "cases": 165,
+    "passed": true
+  },
+  {
+    "test": "scanner versus original x86",
+    "kind": 4,
+    "cases": 165,
+    "passed": true
+  },
+  {
+    "test": "reordered and consumed patch sites",
+    "kind": 1,
+    "bytes": 65536,
+    "passed": true
+  },
+  {
+    "test": "reordered and consumed patch sites",
+    "kind": 4,
+    "bytes": 65536,
+    "passed": true
+  },
+  {
+    "test": "reject patch extending beyond EOF, preserve input",
+    "passed": true
+  },
+  {
+    "test": "patch without a usable temporary directory",
+    "passed": true
+  }
+]

@@ -1,0 +1,172 @@
+Picked up JAVA_TOOL_OPTIONS: -Duser.home="C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\state\java-home"
+Picked up JAVA_TOOL_OPTIONS: -Duser.home="C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\state\java-home"
+Picked up JAVA_TOOL_OPTIONS: -Duser.home="C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\state\java-home"
+Picked up JAVA_TOOL_OPTIONS: -Duser.home="C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\state\java-home"
+INFO  Using log config file: jar:file:/C:/Users/Guy/Downloads/plan/xbox_open_bios/reverse_engineering/tools/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\state\appdata\ghidra\ghidra_12.1.4_PUBLIC\application.log (LoggingInitialization)  
+INFO  Loading user preferences: C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\state\appdata\ghidra\ghidra_12.1.4_PUBLIC\preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1137 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: SHA1PRNG (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (4636 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts
+    C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\Users\Guy\Downloads\plan\kernelbasher_recovered\tools
+    C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Extensions\ghidra-xbe\ghidra_scripts
+    C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: C:\Users\Guy\Downloads\plan\kernelbasher_recovered\evidence\ghidra-project\KernelBasher (HeadlessAnalyzer)  
+INFO  Creating project: C:\Users\Guy\Downloads\plan\kernelbasher_recovered\evidence\ghidra-project\KernelBasher (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: C:\Users\Guy\Downloads\plan\kernelbasher_recovered\evidence\ghidra-project\KernelBasher (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///C:/Users/Guy/Downloads/plan/kernelbasher_recovered/original/extracted/KernelBasher.exe (HeadlessAnalyzer)  
+INFO  Using Loader: Portable Executable (PE) (ProgramLoader)  
+INFO  Using Language/Compiler: x86:LE:32:default:windows (ProgramLoader)  
+INFO  Using Library Search Path: [., C:\WINDOWS\SysWOW64, C:\Program Files\Android\Android Studio\jbr\bin, C:\WINDOWS\Sun\Java\bin, C:\WINDOWS\system32, C:\WINDOWS, C:\Users\Guy\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell, C:\Users\Guy\.codex\tmp\arg0-windows\codex-arg0cJzDDC, C:\Users\Guy\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\libheif\libheif\bin, C:\Users\Guy\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\jxrlib\jxrlib\bin, C:\Users\Guy\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\poppler\Library\bin, C:\Users\Guy\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override, C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\bin\x64, C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\bin, C:\VulkanSDK\1.4.335.0\Bin, C:\Python314\Scripts\, C:\Python314\, C:\Windows\system32, C:\Windows, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\, C:\Program Files\Git\cmd, C:\Program Files\nodejs\, C:\ProgramData\chocolatey\bin, C:\Program Files\TortoiseGit\bin, C:\Program Files\GitHub CLI\, C:\Program Files\NVIDIA Corporation\Nsight Compute 2025.4.1\, C:\WINDOWS\System32\Wbem, C:\WINDOWS\System32\WindowsPowerShell\v1.0\, C:\WINDOWS\System32\OpenSSH\, C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\Program Files\PuTTY\, C:\Program Files\Tailscale\, C:\Program Files\usbipd-win\, C:\Program Files (x86)\cloudflared\, C:\Program Files\Docker\Docker\resources\bin, C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\, C:\Program Files\IVI Foundation\VISA\Win64\Bin\, C:\Users\Guy\AppData\Local\Programs\Python\Python311\Scripts\, C:\Users\Guy\AppData\Local\Programs\Python\Python311\, C:\Users\Guy\.mcuxpressotools\ninja-1.12.1, C:\Users\Guy\.mcuxpressotools\cmake-3.30.0-windows-x86_64\bin, C:\Users\Guy\AppData\Local\Programs\Python\Python313\Scripts\, C:\Users\Guy\AppData\Local\Programs\Python\Python313\, C:\Users\Guy\AppData\Local\Microsoft\WindowsApps, C:\Users\Guy\AppData\Local\Programs\Antigravity\bin, C:\Users\Guy\.lmstudio\bin, C:\Users\Guy\AppData\Roaming\npm, C:\Users\Guy\AppData\Local\Programs\Ollama, C:\Users\Guy\AppData\Roaming\Python\Python314\Scripts, C:\Users\Guy\AppData\Roaming\Python\Python314, C:\Users\Guy\.local\bin\, C:\Users\Guy\AppData\Local\Android\Sdk\platform-tools, C:\Users\Guy\AppData\Local\Programs\Microsoft VS Code\bin, C:\Users\Guy\AppData\Local\Microsoft\WinGet\Links, C:\Program Files (x86)\Nmap, C:\Users\Guy\AppData\Local\Programs\cursor\resources\app\bin, C:\Users\Guy\AppData\Local\Microsoft\WinGet\Packages\steipete.gogcli_Microsoft.Winget.Source_8wekyb3d8bbwe, C:\Users\Guy\AppData\AndroidCLI, C:\Users\Guy\pgtools\pgsql\bin, C:\Users\Guy\AppData\Local\Programs\Antigravity IDE\bin, C:\Users\Guy\AppData\Local\Unity\bin, C:\Users\Guy\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\fallback, C:\Users\Guy\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin, C:\Users\Guy\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd, C:\Users\Guy\AppData\Local\OpenAI\Codex\bin\d6efb6feb729707e, C:\Users\Guy\AppData\Local\OpenAI\Codex\bin\e78bad9887fa50cf] (ProgramLoader)  
+WARN  Invalid or missing function at 100dcd7c (ExportDataDirectory)  
+INFO  Additional info:
+Loading file:///C:/Users/Guy/Downloads/plan/kernelbasher_recovered/original/extracted/KernelBasher.exe?MD5=fadcb450639d8582c70dd3e138ba69fb...
+[KernelBasher.exe]: failed to create byte[332] at 01a23eb8: Conflicting data exists at address 01a23eba to 01a23ebf
+------------------------------------------------
+
+Searching 68 paths for library GDI32.DLL...
+Loading file:///C:/Windows/SysWOW64/gdi32.dll?MD5=37002dbb23f87dae9ebd7dd7b5051995...
+Created exports file: C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\state\appdata\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\gdi32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 68 paths for library KERNEL32.DLL...
+Loading file:///C:/Windows/SysWOW64/kernel32.dll?MD5=770414a520903821a02bbcad3ca69fcc...
+Created exports file: C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\state\appdata\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\kernel32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 68 paths for library MFC71.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 68 paths for library MSVCR71.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 68 paths for library USER32.DLL...
+Loading file:///C:/Windows/SysWOW64/user32.dll?MD5=a87613d5a9420564cc848130252fed2b...
+[user32.dll]: failed to create WEVTResource at 100fba70: Failed to resolve data length for WEVTResource
+Created exports file: C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\state\appdata\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\user32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 68 paths for library XBFLASH.DLL...
+Loading file:///C:/Users/Guy/Downloads/plan/kernelbasher_recovered/original/extracted/xbflash.dll?MD5=799b91c5a39c131bc48721153dfd4673...
+Created exports file: C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\state\appdata\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\xbflash.exports
+Library not saved to project.
+------------------------------------------------
+
+Applying cached symbols from XBFLASH.DLL
+Applying C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\data\symbols\win32\mfc71.exports
+Applying cached symbols from KERNEL32.DLL
+Applying cached symbols from USER32.DLL
+Applying cached symbols from GDI32.DLL
+Linking the External Programs of 'KernelBasher.exe' to imported libraries...
+  [XBFLASH.DLL] -> not found in project
+  [MFC71.DLL] -> not found in project
+  [MSVCR71.DLL] -> not found in project
+  [KERNEL32.DLL] -> not found in project
+  [USER32.DLL] -> not found in project
+  [GDI32.DLL] -> not found in project
+------------------------------------------------
+
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file:///C:/Users/Guy/Downloads/plan/kernelbasher_recovered/original/extracted/KernelBasher.exe (HeadlessAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___raise_securityfailure' specified in file: C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\data\PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___report_rangecheckfailure' specified in file: C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\data\PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+INFO  Skipping PDB processing: missing PDB information in program metadata (PdbUniversalAnalyzer)  
+INFO  Packed database cache: C:\Users\Guy\Downloads\plan\xbox_open_bios\reverse_engineering\tools\state\localappdata\ghidra\packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: windows_vs12_32 (ApplyDataArchiveAnalyzer)  
+INFO  Applied data type archive: windows_vs12_32 (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ASCII Strings                              1.538 secs
+    Apply Data Archives                        0.155 secs
+    Call Convention ID                         0.003 secs
+    Call-Fixup Installer                       0.012 secs
+    Create Address Tables                      0.028 secs
+    Create Address Tables - One Time           1.243 secs
+    Create Function                            0.147 secs
+    Data Reference                             0.050 secs
+    Decompiler Switch Analysis                30.070 secs
+    Demangler Microsoft                        0.296 secs
+    Disassemble                                0.206 secs
+    Disassemble Entry Points                   0.290 secs
+    Embedded Media                             0.377 secs
+    External Entry References                  0.001 secs
+    Function ID                                0.690 secs
+    Function Start Pre Search                  0.019 secs
+    Function Start Search                      0.054 secs
+    Function Start Search After Code           0.009 secs
+    Function Start Search After Data           0.023 secs
+    Non-Returning Functions - Discovered       0.038 secs
+    Non-Returning Functions - Known            0.013 secs
+    PDB Universal                              0.004 secs
+    Reference                                  0.092 secs
+    Scalar Operand References                  0.129 secs
+    Shared Return Calls                        0.056 secs
+    Stack                                      0.780 secs
+    Subroutine References                      0.060 secs
+    Subroutine References - One Time           0.008 secs
+    Windows x86 PE Exception Handling          2.972 secs
+    Windows x86 PE RTTI Analyzer               0.001 secs
+    Windows x86 Thread Environment Block (TEB) Analyzer     0.018 secs
+    WindowsResourceReference                   1.441 secs
+    X86 Function Callee Purge                  0.032 secs
+    x86 Constant Reference Analyzer            0.870 secs
+-----------------------------------------------------
+     Total Time   41 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///C:/Users/Guy/Downloads/plan/kernelbasher_recovered/original/extracted/KernelBasher.exe (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: ExportKernelAnalysis.java 'C:\Users\Guy\Downloads\plan\kernelbasher_recovered\evidence\ghidra'  (HeadlessAnalyzer)  
+INFO  SCRIPT: C:\Users\Guy\Downloads\plan\kernelbasher_recovered\tools\ExportKernelAnalysis.java (HeadlessAnalyzer)  
+INFO  ExportKernelAnalysis.java> Exported 100 functions; success=99, failure=1 (GhidraScript)  
+INFO  ExportKernelAnalysis.java> Exported 200 functions; success=199, failure=1 (GhidraScript)  
+INFO  ExportKernelAnalysis.java> Exported 300 functions; success=299, failure=1 (GhidraScript)  
+INFO  ExportKernelAnalysis.java> Kernel export completed: {
+  "program": "KernelBasher.exe",
+  "image_base": "00400000",
+  "language": "x86:LE:32:default",
+  "compiler_spec": "windows",
+  "function_count": 342,
+  "decompiled": 341,
+  "failed": 1,
+  "cancelled": false,
+  "limitations": "Static auto-analysis and machine pseudocode only; no target execution, behavioral validation, or proof that all functions were discovered. Indirect call edges may be unresolved."
+} (GhidraScript)  
+INFO  ANALYZING changes made by post scripts: file:///C:/Users/Guy/Downloads/plan/kernelbasher_recovered/original/extracted/KernelBasher.exe (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file:///C:/Users/Guy/Downloads/plan/kernelbasher_recovered/original/extracted/KernelBasher.exe (HeadlessAnalyzer)  
+INFO  /KernelBasher.exe: file created (Guy) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /KernelBasher.exe (KernelBasher:/KernelBasher.exe) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

@@ -1,0 +1,19 @@
+{
+  "retrieved_utc": "2026-10-18T07:49:14.223485+00:00",
+  "source": "xbins FTP",
+  "remote_path": "/XBOX/PC Based Applications/bios tools/KernelBasher/KernelBasherV1.1.zip",
+  "listing": [
+    "total 910",
+    "-rw-r--r--   1 iriez    STAFF      464972 Sep 21  2006 KernelBasherV1.1.zip",
+    "drwxrwxrwx   2 iriez    STAFF         384 Sep 21  2006 _old"
+  ],
+  "bytes": 464972,
+  "sha256": "e8010ae7a60e830a70594727f0f34ee1fa602c7d9ba1c673676f665782a3361e",
+  "members": [
+    {
+      "name": "Setup.exe",
+      "bytes": 481993,
+      "sha256": "f956b9ea3512bc48635731aa9c17089aaa3741a347524ce6fe4bc16801966779"
+    }
+  ]
+}

@@ -1,0 +1,1394 @@
+{
+  "xbflash.dll": [
+    {
+      "name": "?xb_unpack@@YAHPBD0@Z",
+      "ordinal": null,
+      "iat": "0x412458"
+    },
+    {
+      "name": "?xb_pack@@YAHPBD0I0000@Z",
+      "ordinal": null,
+      "iat": "0x41245c"
+    },
+    {
+      "name": "?xb_read_config_file@@YAHPBD@Z",
+      "ordinal": null,
+      "iat": "0x412460"
+    }
+  ],
+  "MFC71.DLL": [
+    {
+      "name": null,
+      "ordinal": 3949,
+      "iat": "0x41205c"
+    },
+    {
+      "name": null,
+      "ordinal": 4481,
+      "iat": "0x412060"
+    },
+    {
+      "name": null,
+      "ordinal": 4261,
+      "iat": "0x412064"
+    },
+    {
+      "name": null,
+      "ordinal": 3333,
+      "iat": "0x412068"
+    },
+    {
+      "name": null,
+      "ordinal": 566,
+      "iat": "0x41206c"
+    },
+    {
+      "name": null,
+      "ordinal": 757,
+      "iat": "0x412070"
+    },
+    {
+      "name": null,
+      "ordinal": 605,
+      "iat": "0x412074"
+    },
+    {
+      "name": null,
+      "ordinal": 591,
+      "iat": "0x412078"
+    },
+    {
+      "name": null,
+      "ordinal": 736,
+      "iat": "0x41207c"
+    },
+    {
+      "name": null,
+      "ordinal": 715,
+      "iat": "0x412080"
+    },
+    {
+      "name": null,
+      "ordinal": 741,
+      "iat": "0x412084"
+    },
+    {
+      "name": null,
+      "ordinal": 578,
+      "iat": "0x412088"
+    },
+    {
+      "name": null,
+      "ordinal": 764,
+      "iat": "0x41208c"
+    },
+    {
+      "name": null,
+      "ordinal": 2020,
+      "iat": "0x412090"
+    },
+    {
+      "name": null,
+      "ordinal": 1054,
+      "iat": "0x412094"
+    },
+    {
+      "name": null,
+      "ordinal": 3641,
+      "iat": "0x412098"
+    },
+    {
+      "name": null,
+      "ordinal": 1084,
+      "iat": "0x41209c"
+    },
+    {
+      "name": null,
+      "ordinal": 2371,
+      "iat": "0x4120a0"
+    },
+    {
+      "name": null,
+      "ordinal": 1903,
+      "iat": "0x4120a4"
+    },
+    {
+      "name": null,
+      "ordinal": 2095,
+      "iat": "0x4120a8"
+    },
+    {
+      "name": null,
+      "ordinal": 1591,
+      "iat": "0x4120ac"
+    },
+    {
+      "name": null,
+      "ordinal": 5915,
+      "iat": "0x4120b0"
+    },
+    {
+      "name": null,
+      "ordinal": 1620,
+      "iat": "0x4120b4"
+    },
+    {
+      "name": null,
+      "ordinal": 1617,
+      "iat": "0x4120b8"
+    },
+    {
+      "name": null,
+      "ordinal": 3946,
+      "iat": "0x4120bc"
+    },
+    {
+      "name": null,
+      "ordinal": 1402,
+      "iat": "0x4120c0"
+    },
+    {
+      "name": null,
+      "ordinal": 4240,
+      "iat": "0x4120c4"
+    },
+    {
+      "name": null,
+      "ordinal": 5152,
+      "iat": "0x4120c8"
+    },
+    {
+      "name": null,
+      "ordinal": 1908,
+      "iat": "0x4120cc"
+    },
+    {
+      "name": null,
+      "ordinal": 5073,
+      "iat": "0x4120d0"
+    },
+    {
+      "name": null,
+      "ordinal": 6275,
+      "iat": "0x4120d4"
+    },
+    {
+      "name": null,
+      "ordinal": 4185,
+      "iat": "0x4120d8"
+    },
+    {
+      "name": null,
+      "ordinal": 5214,
+      "iat": "0x4120dc"
+    },
+    {
+      "name": null,
+      "ordinal": 3403,
+      "iat": "0x4120e0"
+    },
+    {
+      "name": null,
+      "ordinal": 4722,
+      "iat": "0x4120e4"
+    },
+    {
+      "name": null,
+      "ordinal": 4282,
+      "iat": "0x4120e8"
+    },
+    {
+      "name": null,
+      "ordinal": 1600,
+      "iat": "0x4120ec"
+    },
+    {
+      "name": null,
+      "ordinal": 5960,
+      "iat": "0x4120f0"
+    },
+    {
+      "name": null,
+      "ordinal": 923,
+      "iat": "0x4120f4"
+    },
+    {
+      "name": null,
+      "ordinal": 928,
+      "iat": "0x4120f8"
+    },
+    {
+      "name": null,
+      "ordinal": 932,
+      "iat": "0x4120fc"
+    },
+    {
+      "name": null,
+      "ordinal": 930,
+      "iat": "0x412100"
+    },
+    {
+      "name": null,
+      "ordinal": 934,
+      "iat": "0x412104"
+    },
+    {
+      "name": null,
+      "ordinal": 2410,
+      "iat": "0x412108"
+    },
+    {
+      "name": null,
+      "ordinal": 2394,
+      "iat": "0x41210c"
+    },
+    {
+      "name": null,
+      "ordinal": 2413,
+      "iat": "0x412110"
+    },
+    {
+      "name": null,
+      "ordinal": 2408,
+      "iat": "0x412114"
+    },
+    {
+      "name": null,
+      "ordinal": 2385,
+      "iat": "0x412118"
+    },
+    {
+      "name": null,
+      "ordinal": 2387,
+      "iat": "0x41211c"
+    },
+    {
+      "name": null,
+      "ordinal": 2405,
+      "iat": "0x412120"
+    },
+    {
+      "name": null,
+      "ordinal": 2178,
+      "iat": "0x412124"
+    },
+    {
+      "name": null,
+      "ordinal": 2172,
+      "iat": "0x412128"
+    },
+    {
+      "name": null,
+      "ordinal": 1522,
+      "iat": "0x41212c"
+    },
+    {
+      "name": null,
+      "ordinal": 6279,
+      "iat": "0x412130"
+    },
+    {
+      "name": null,
+      "ordinal": 3802,
+      "iat": "0x412134"
+    },
+    {
+      "name": null,
+      "ordinal": 6277,
+      "iat": "0x412138"
+    },
+    {
+      "name": null,
+      "ordinal": 3345,
+      "iat": "0x41213c"
+    },
+    {
+      "name": null,
+      "ordinal": 4967,
+      "iat": "0x412140"
+    },
+    {
+      "name": null,
+      "ordinal": 1362,
+      "iat": "0x412144"
+    },
+    {
+      "name": null,
+      "ordinal": 5175,
+      "iat": "0x412148"
+    },
+    {
+      "name": null,
+      "ordinal": 1964,
+      "iat": "0x41214c"
+    },
+    {
+      "name": null,
+      "ordinal": 1656,
+      "iat": "0x412150"
+    },
+    {
+      "name": null,
+      "ordinal": 1655,
+      "iat": "0x412154"
+    },
+    {
+      "name": null,
+      "ordinal": 1599,
+      "iat": "0x412158"
+    },
+    {
+      "name": null,
+      "ordinal": 5200,
+      "iat": "0x41215c"
+    },
+    {
+      "name": null,
+      "ordinal": 2862,
+      "iat": "0x412160"
+    },
+    {
+      "name": null,
+      "ordinal": 2991,
+      "iat": "0x412164"
+    },
+    {
+      "name": null,
+      "ordinal": 4486,
+      "iat": "0x412168"
+    },
+    {
+      "name": null,
+      "ordinal": 3317,
+      "iat": "0x41216c"
+    },
+    {
+      "name": null,
+      "ordinal": 572,
+      "iat": "0x412170"
+    },
+    {
+      "name": null,
+      "ordinal": 1931,
+      "iat": "0x412174"
+    },
+    {
+      "name": null,
+      "ordinal": 1483,
+      "iat": "0x412178"
+    },
+    {
+      "name": null,
+      "ordinal": 4098,
+      "iat": "0x41217c"
+    },
+    {
+      "name": null,
+      "ordinal": 2089,
+      "iat": "0x412180"
+    },
+    {
+      "name": null,
+      "ordinal": 1547,
+      "iat": "0x412184"
+    },
+    {
+      "name": null,
+      "ordinal": 2644,
+      "iat": "0x412188"
+    },
+    {
+      "name": null,
+      "ordinal": 3171,
+      "iat": "0x41218c"
+    },
+    {
+      "name": null,
+      "ordinal": 1063,
+      "iat": "0x412190"
+    },
+    {
+      "name": null,
+      "ordinal": 1646,
+      "iat": "0x412194"
+    },
+    {
+      "name": null,
+      "ordinal": 1588,
+      "iat": "0x412198"
+    },
+    {
+      "name": null,
+      "ordinal": 4244,
+      "iat": "0x41219c"
+    },
+    {
+      "name": null,
+      "ordinal": 3312,
+      "iat": "0x4121a0"
+    },
+    {
+      "name": null,
+      "ordinal": 1643,
+      "iat": "0x4121a4"
+    },
+    {
+      "name": null,
+      "ordinal": 1581,
+      "iat": "0x4121a8"
+    },
+    {
+      "name": null,
+      "ordinal": 3292,
+      "iat": "0x4121ac"
+    },
+    {
+      "name": null,
+      "ordinal": 5182,
+      "iat": "0x4121b0"
+    },
+    {
+      "name": null,
+      "ordinal": 4212,
+      "iat": "0x4121b4"
+    },
+    {
+      "name": null,
+      "ordinal": 4735,
+      "iat": "0x4121b8"
+    },
+    {
+      "name": null,
+      "ordinal": 4890,
+      "iat": "0x4121bc"
+    },
+    {
+      "name": null,
+      "ordinal": 4580,
+      "iat": "0x4121c0"
+    },
+    {
+      "name": null,
+      "ordinal": 1671,
+      "iat": "0x4121c4"
+    },
+    {
+      "name": null,
+      "ordinal": 1670,
+      "iat": "0x4121c8"
+    },
+    {
+      "name": null,
+      "ordinal": 1551,
+      "iat": "0x4121cc"
+    },
+    {
+      "name": null,
+      "ordinal": 5912,
+      "iat": "0x4121d0"
+    },
+    {
+      "name": null,
+      "ordinal": 1401,
+      "iat": "0x4121d4"
+    },
+    {
+      "name": null,
+      "ordinal": 5203,
+      "iat": "0x4121d8"
+    },
+    {
+      "name": null,
+      "ordinal": 4262,
+      "iat": "0x4121dc"
+    },
+    {
+      "name": null,
+      "ordinal": 3182,
+      "iat": "0x4121e0"
+    },
+    {
+      "name": null,
+      "ordinal": 354,
+      "iat": "0x4121e4"
+    },
+    {
+      "name": null,
+      "ordinal": 784,
+      "iat": "0x4121e8"
+    },
+    {
+      "name": null,
+      "ordinal": 310,
+      "iat": "0x4121ec"
+    },
+    {
+      "name": null,
+      "ordinal": 1884,
+      "iat": "0x4121f0"
+    },
+    {
+      "name": null,
+      "ordinal": 1880,
+      "iat": "0x4121f4"
+    },
+    {
+      "name": null,
+      "ordinal": 1892,
+      "iat": "0x4121f8"
+    },
+    {
+      "name": null,
+      "ordinal": 1793,
+      "iat": "0x4121fc"
+    },
+    {
+      "name": null,
+      "ordinal": 1791,
+      "iat": "0x412200"
+    },
+    {
+      "name": null,
+      "ordinal": 1794,
+      "iat": "0x412204"
+    },
+    {
+      "name": null,
+      "ordinal": 4104,
+      "iat": "0x412208"
+    },
+    {
+      "name": null,
+      "ordinal": 6236,
+      "iat": "0x41220c"
+    },
+    {
+      "name": null,
+      "ordinal": 5969,
+      "iat": "0x412210"
+    },
+    {
+      "name": null,
+      "ordinal": 2164,
+      "iat": "0x412214"
+    },
+    {
+      "name": null,
+      "ordinal": 2657,
+      "iat": "0x412218"
+    },
+    {
+      "name": null,
+      "ordinal": 1207,
+      "iat": "0x41221c"
+    },
+    {
+      "name": null,
+      "ordinal": 4749,
+      "iat": "0x412220"
+    },
+    {
+      "name": null,
+      "ordinal": 709,
+      "iat": "0x412224"
+    },
+    {
+      "name": null,
+      "ordinal": 501,
+      "iat": "0x412228"
+    },
+    {
+      "name": null,
+      "ordinal": 630,
+      "iat": "0x41222c"
+    },
+    {
+      "name": null,
+      "ordinal": 2747,
+      "iat": "0x412230"
+    },
+    {
+      "name": null,
+      "ordinal": 781,
+      "iat": "0x412234"
+    },
+    {
+      "name": null,
+      "ordinal": 3088,
+      "iat": "0x412238"
+    },
+    {
+      "name": null,
+      "ordinal": 2021,
+      "iat": "0x41223c"
+    },
+    {
+      "name": null,
+      "ordinal": 385,
+      "iat": "0x412240"
+    },
+    {
+      "name": null,
+      "ordinal": 5059,
+      "iat": "0x412244"
+    },
+    {
+      "name": null,
+      "ordinal": 865,
+      "iat": "0x412248"
+    },
+    {
+      "name": null,
+      "ordinal": 1482,
+      "iat": "0x41224c"
+    },
+    {
+      "name": null,
+      "ordinal": 2754,
+      "iat": "0x412250"
+    },
+    {
+      "name": null,
+      "ordinal": 3684,
+      "iat": "0x412254"
+    },
+    {
+      "name": null,
+      "ordinal": 762,
+      "iat": "0x412258"
+    },
+    {
+      "name": null,
+      "ordinal": 3210,
+      "iat": "0x41225c"
+    },
+    {
+      "name": null,
+      "ordinal": 1934,
+      "iat": "0x412260"
+    },
+    {
+      "name": null,
+      "ordinal": 2368,
+      "iat": "0x412264"
+    },
+    {
+      "name": null,
+      "ordinal": 3204,
+      "iat": "0x412268"
+    },
+    {
+      "name": null,
+      "ordinal": 1280,
+      "iat": "0x41226c"
+    },
+    {
+      "name": null,
+      "ordinal": 3161,
+      "iat": "0x412270"
+    },
+    {
+      "name": null,
+      "ordinal": 1279,
+      "iat": "0x412274"
+    },
+    {
+      "name": null,
+      "ordinal": 602,
+      "iat": "0x412278"
+    },
+    {
+      "name": null,
+      "ordinal": 5523,
+      "iat": "0x41227c"
+    },
+    {
+      "name": null,
+      "ordinal": 5727,
+      "iat": "0x412280"
+    },
+    {
+      "name": null,
+      "ordinal": 6037,
+      "iat": "0x412284"
+    },
+    {
+      "name": null,
+      "ordinal": 5642,
+      "iat": "0x412288"
+    },
+    {
+      "name": null,
+      "ordinal": 2264,
+      "iat": "0x41228c"
+    },
+    {
+      "name": null,
+      "ordinal": 5640,
+      "iat": "0x412290"
+    },
+    {
+      "name": null,
+      "ordinal": 326,
+      "iat": "0x412294"
+    },
+    {
+      "name": null,
+      "ordinal": 5641,
+      "iat": "0x412298"
+    },
+    {
+      "name": null,
+      "ordinal": 502,
+      "iat": "0x41229c"
+    },
+    {
+      "name": null,
+      "ordinal": 5588,
+      "iat": "0x4122a0"
+    },
+    {
+      "name": null,
+      "ordinal": 347,
+      "iat": "0x4122a4"
+    },
+    {
+      "name": null,
+      "ordinal": 5235,
+      "iat": "0x4122a8"
+    },
+    {
+      "name": null,
+      "ordinal": 5233,
+      "iat": "0x4122ac"
+    },
+    {
+      "name": null,
+      "ordinal": 2390,
+      "iat": "0x4122b0"
+    },
+    {
+      "name": null,
+      "ordinal": 2400,
+      "iat": "0x4122b4"
+    },
+    {
+      "name": null,
+      "ordinal": 2398,
+      "iat": "0x4122b8"
+    },
+    {
+      "name": null,
+      "ordinal": 2396,
+      "iat": "0x4122bc"
+    },
+    {
+      "name": null,
+      "ordinal": 2392,
+      "iat": "0x4122c0"
+    },
+    {
+      "name": null,
+      "ordinal": 2415,
+      "iat": "0x4122c4"
+    },
+    {
+      "name": null,
+      "ordinal": 2403,
+      "iat": "0x4122c8"
+    },
+    {
+      "name": null,
+      "ordinal": 3709,
+      "iat": "0x4122cc"
+    },
+    {
+      "name": null,
+      "ordinal": 3719,
+      "iat": "0x4122d0"
+    },
+    {
+      "name": null,
+      "ordinal": 3718,
+      "iat": "0x4122d4"
+    },
+    {
+      "name": null,
+      "ordinal": 2533,
+      "iat": "0x4122d8"
+    },
+    {
+      "name": null,
+      "ordinal": 2646,
+      "iat": "0x4122dc"
+    },
+    {
+      "name": null,
+      "ordinal": 2540,
+      "iat": "0x4122e0"
+    },
+    {
+      "name": null,
+      "ordinal": 2838,
+      "iat": "0x4122e4"
+    },
+    {
+      "name": null,
+      "ordinal": 2714,
+      "iat": "0x4122e8"
+    },
+    {
+      "name": null,
+      "ordinal": 4307,
+      "iat": "0x4122ec"
+    },
+    {
+      "name": null,
+      "ordinal": 2835,
+      "iat": "0x4122f0"
+    },
+    {
+      "name": null,
+      "ordinal": 2731,
+      "iat": "0x4122f4"
+    },
+    {
+      "name": null,
+      "ordinal": 2537,
+      "iat": "0x4122f8"
+    },
+    {
+      "name": null,
+      "ordinal": 5566,
+      "iat": "0x4122fc"
+    },
+    {
+      "name": null,
+      "ordinal": 5213,
+      "iat": "0x412300"
+    },
+    {
+      "name": null,
+      "ordinal": 5230,
+      "iat": "0x412304"
+    },
+    {
+      "name": null,
+      "ordinal": 4568,
+      "iat": "0x412308"
+    },
+    {
+      "name": null,
+      "ordinal": 3948,
+      "iat": "0x41230c"
+    },
+    {
+      "name": null,
+      "ordinal": 2248,
+      "iat": "0x412310"
+    },
+    {
+      "name": null,
+      "ordinal": 5226,
+      "iat": "0x412314"
+    },
+    {
+      "name": null,
+      "ordinal": 5224,
+      "iat": "0x412318"
+    },
+    {
+      "name": null,
+      "ordinal": 2931,
+      "iat": "0x41231c"
+    },
+    {
+      "name": null,
+      "ordinal": 1920,
+      "iat": "0x412320"
+    },
+    {
+      "name": null,
+      "ordinal": 3832,
+      "iat": "0x412324"
+    },
+    {
+      "name": null,
+      "ordinal": 5382,
+      "iat": "0x412328"
+    },
+    {
+      "name": null,
+      "ordinal": 6219,
+      "iat": "0x41232c"
+    },
+    {
+      "name": null,
+      "ordinal": 5102,
+      "iat": "0x412330"
+    },
+    {
+      "name": null,
+      "ordinal": 1010,
+      "iat": "0x412334"
+    },
+    {
+      "name": null,
+      "ordinal": 3806,
+      "iat": "0x412338"
+    },
+    {
+      "name": null,
+      "ordinal": 5583,
+      "iat": "0x41233c"
+    },
+    {
+      "name": null,
+      "ordinal": 2018,
+      "iat": "0x412340"
+    },
+    {
+      "name": null,
+      "ordinal": 2063,
+      "iat": "0x412344"
+    },
+    {
+      "name": null,
+      "ordinal": 4326,
+      "iat": "0x412348"
+    },
+    {
+      "name": null,
+      "ordinal": 6276,
+      "iat": "0x41234c"
+    },
+    {
+      "name": null,
+      "ordinal": 3801,
+      "iat": "0x412350"
+    },
+    {
+      "name": null,
+      "ordinal": 6278,
+      "iat": "0x412354"
+    },
+    {
+      "name": null,
+      "ordinal": 4014,
+      "iat": "0x412358"
+    },
+    {
+      "name": null,
+      "ordinal": 4038,
+      "iat": "0x41235c"
+    },
+    {
+      "name": null,
+      "ordinal": 3683,
+      "iat": "0x412360"
+    },
+    {
+      "name": null,
+      "ordinal": 4541,
+      "iat": "0x412364"
+    },
+    {
+      "name": null,
+      "ordinal": 4234,
+      "iat": "0x412368"
+    },
+    {
+      "name": null,
+      "ordinal": 4035,
+      "iat": "0x41236c"
+    }
+  ],
+  "MSVCR71.dll": [
+    {
+      "name": "__p__fmode",
+      "ordinal": null,
+      "iat": "0x412374"
+    },
+    {
+      "name": "__set_app_type",
+      "ordinal": null,
+      "iat": "0x412378"
+    },
+    {
+      "name": "__security_error_handler",
+      "ordinal": null,
+      "iat": "0x41237c"
+    },
+    {
+      "name": "_controlfp",
+      "ordinal": null,
+      "iat": "0x412380"
+    },
+    {
+      "name": "__p__commode",
+      "ordinal": null,
+      "iat": "0x412384"
+    },
+    {
+      "name": "_adjust_fdiv",
+      "ordinal": null,
+      "iat": "0x412388"
+    },
+    {
+      "name": "__setusermatherr",
+      "ordinal": null,
+      "iat": "0x41238c"
+    },
+    {
+      "name": "_initterm",
+      "ordinal": null,
+      "iat": "0x412390"
+    },
+    {
+      "name": "__getmainargs",
+      "ordinal": null,
+      "iat": "0x412394"
+    },
+    {
+      "name": "_amsg_exit",
+      "ordinal": null,
+      "iat": "0x412398"
+    },
+    {
+      "name": "_acmdln",
+      "ordinal": null,
+      "iat": "0x41239c"
+    },
+    {
+      "name": "_cexit",
+      "ordinal": null,
+      "iat": "0x4123a0"
+    },
+    {
+      "name": "_ismbblead",
+      "ordinal": null,
+      "iat": "0x4123a4"
+    },
+    {
+      "name": "_XcptFilter",
+      "ordinal": null,
+      "iat": "0x4123a8"
+    },
+    {
+      "name": "_exit",
+      "ordinal": null,
+      "iat": "0x4123ac"
+    },
+    {
+      "name": "_c_exit",
+      "ordinal": null,
+      "iat": "0x4123b0"
+    },
+    {
+      "name": "_onexit",
+      "ordinal": null,
+      "iat": "0x4123b4"
+    },
+    {
+      "name": "__dllonexit",
+      "ordinal": null,
+      "iat": "0x4123b8"
+    },
+    {
+      "name": "memset",
+      "ordinal": null,
+      "iat": "0x4123bc"
+    },
+    {
+      "name": "memcmp",
+      "ordinal": null,
+      "iat": "0x4123c0"
+    },
+    {
+      "name": "strncmp",
+      "ordinal": null,
+      "iat": "0x4123c4"
+    },
+    {
+      "name": "memcpy",
+      "ordinal": null,
+      "iat": "0x4123c8"
+    },
+    {
+      "name": "remove",
+      "ordinal": null,
+      "iat": "0x4123cc"
+    },
+    {
+      "name": "fputc",
+      "ordinal": null,
+      "iat": "0x4123d0"
+    },
+    {
+      "name": "putc",
+      "ordinal": null,
+      "iat": "0x4123d4"
+    },
+    {
+      "name": "rename",
+      "ordinal": null,
+      "iat": "0x4123d8"
+    },
+    {
+      "name": "fread",
+      "ordinal": null,
+      "iat": "0x4123dc"
+    },
+    {
+      "name": "fwrite",
+      "ordinal": null,
+      "iat": "0x4123e0"
+    },
+    {
+      "name": "fopen",
+      "ordinal": null,
+      "iat": "0x4123e4"
+    },
+    {
+      "name": "sprintf",
+      "ordinal": null,
+      "iat": "0x4123e8"
+    },
+    {
+      "name": "fclose",
+      "ordinal": null,
+      "iat": "0x4123ec"
+    },
+    {
+      "name": "exit",
+      "ordinal": null,
+      "iat": "0x4123f0"
+    },
+    {
+      "name": "fgetc",
+      "ordinal": null,
+      "iat": "0x4123f4"
+    },
+    {
+      "name": "printf",
+      "ordinal": null,
+      "iat": "0x4123f8"
+    },
+    {
+      "name": "fscanf",
+      "ordinal": null,
+      "iat": "0x4123fc"
+    },
+    {
+      "name": "getchar",
+      "ordinal": null,
+      "iat": "0x412400"
+    },
+    {
+      "name": "_setmbcp",
+      "ordinal": null,
+      "iat": "0x412404"
+    },
+    {
+      "name": "__CxxFrameHandler",
+      "ordinal": null,
+      "iat": "0x412408"
+    },
+    {
+      "name": "free",
+      "ordinal": null,
+      "iat": "0x41240c"
+    },
+    {
+      "name": "malloc",
+      "ordinal": null,
+      "iat": "0x412410"
+    },
+    {
+      "name": "_except_handler3",
+      "ordinal": null,
+      "iat": "0x412414"
+    },
+    {
+      "name": "atof",
+      "ordinal": null,
+      "iat": "0x412418"
+    },
+    {
+      "name": "fseek",
+      "ordinal": null,
+      "iat": "0x41241c"
+    },
+    {
+      "name": "ftell",
+      "ordinal": null,
+      "iat": "0x412420"
+    }
+  ],
+  "KERNEL32.dll": [
+    {
+      "name": "InitializeCriticalSection",
+      "ordinal": null,
+      "iat": "0x412028"
+    },
+    {
+      "name": "DeleteCriticalSection",
+      "ordinal": null,
+      "iat": "0x41202c"
+    },
+    {
+      "name": "GetModuleHandleA",
+      "ordinal": null,
+      "iat": "0x412030"
+    },
+    {
+      "name": "GetStartupInfoA",
+      "ordinal": null,
+      "iat": "0x412034"
+    },
+    {
+      "name": "ExitProcess",
+      "ordinal": null,
+      "iat": "0x412038"
+    },
+    {
+      "name": "QueryPerformanceCounter",
+      "ordinal": null,
+      "iat": "0x41203c"
+    },
+    {
+      "name": "GetTickCount",
+      "ordinal": null,
+      "iat": "0x412040"
+    },
+    {
+      "name": "GetCurrentThreadId",
+      "ordinal": null,
+      "iat": "0x412044"
+    },
+    {
+      "name": "GetCurrentProcessId",
+      "ordinal": null,
+      "iat": "0x412048"
+    },
+    {
+      "name": "GetSystemTimeAsFileTime",
+      "ordinal": null,
+      "iat": "0x41204c"
+    },
+    {
+      "name": "GetVersionExA",
+      "ordinal": null,
+      "iat": "0x412050"
+    },
+    {
+      "name": "CreateDirectoryA",
+      "ordinal": null,
+      "iat": "0x412054"
+    }
+  ],
+  "USER32.dll": [
+    {
+      "name": "GetSysColor",
+      "ordinal": null,
+      "iat": "0x412428"
+    },
+    {
+      "name": "LoadIconA",
+      "ordinal": null,
+      "iat": "0x41242c"
+    },
+    {
+      "name": "EnableWindow",
+      "ordinal": null,
+      "iat": "0x412430"
+    },
+    {
+      "name": "GetClientRect",
+      "ordinal": null,
+      "iat": "0x412434"
+    },
+    {
+      "name": "RedrawWindow",
+      "ordinal": null,
+      "iat": "0x412438"
+    },
+    {
+      "name": "GetSystemMenu",
+      "ordinal": null,
+      "iat": "0x41243c"
+    },
+    {
+      "name": "SendMessageA",
+      "ordinal": null,
+      "iat": "0x412440"
+    },
+    {
+      "name": "AppendMenuA",
+      "ordinal": null,
+      "iat": "0x412444"
+    },
+    {
+      "name": "DrawIcon",
+      "ordinal": null,
+      "iat": "0x412448"
+    },
+    {
+      "name": "IsIconic",
+      "ordinal": null,
+      "iat": "0x41244c"
+    },
+    {
+      "name": "GetSystemMetrics",
+      "ordinal": null,
+      "iat": "0x412450"
+    }
+  ],
+  "GDI32.dll": [
+    {
+      "name": "BitBlt",
+      "ordinal": null,
+      "iat": "0x412000"
+    },
+    {
+      "name": "Polygon",
+      "ordinal": null,
+      "iat": "0x412004"
+    },
+    {
+      "name": "Ellipse",
+      "ordinal": null,
+      "iat": "0x412008"
+    },
+    {
+      "name": "SelectObject",
+      "ordinal": null,
+      "iat": "0x41200c"
+    },
+    {
+      "name": "CreateCompatibleDC",
+      "ordinal": null,
+      "iat": "0x412010"
+    },
+    {
+      "name": "CreateCompatibleBitmap",
+      "ordinal": null,
+      "iat": "0x412014"
+    },
+    {
+      "name": "GetObjectA",
+      "ordinal": null,
+      "iat": "0x412018"
+    },
+    {
+      "name": "CreateFontIndirectA",
+      "ordinal": null,
+      "iat": "0x41201c"
+    },
+    {
+      "name": "Rectangle",
+      "ordinal": null,
+      "iat": "0x412020"
+    }
+  ]
+}

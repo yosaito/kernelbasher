@@ -1,0 +1,34 @@
+{
+  "binaries": [
+    {
+      "file": "KernelBasher.exe",
+      "Hash": "3F61E765C88AA2E126E332C4BE46E5052816E7AEC74D597726AC06DF5B6975A9"
+    },
+    {
+      "file": "KernelBasher-cli.exe",
+      "Hash": "61F4F741E285DC8D1913E0D0ABC16CBE1C761B5697F51D99A98D8D70F6F59336"
+    }
+  ],
+  "differential_cases": 8,
+  "hardware_flashed": false,
+  "rea": "6.5.0 native PE inspection and successful scanner function dossier",
+  "ghidra": "12.1.4 full exports and supplemental function recovery",
+  "real_bios_boot_tested": false,
+  "differential_differences": 0,
+  "clean_archive_build": "success: current memory source archive rebuilt; 28 regressions and 8 original-output replays passed",
+  "differential_bytes_per_case": 49152,
+  "external_review": "Earlier Argon planning review succeeded; memory-refactor review timed out at 180 seconds. Locally verified against original x86 code.",
+  "gui": "Launched and loaded shipped RED.kbp; verified sliders, numeric fields and previews",
+  "regression_checks": 28,
+  "build": "success",
+  "third_party_binary_dependencies": [
+    "xbflash.dll",
+    "msvcr71.dll"
+  ],
+  "patch_engine": "memory only: immutable input, one memcpy, bounded output writes, unchanged-span skipping",
+  "scanner_edge_comparisons": 330,
+  "reordered_patch_comparisons": 2,
+  "final_replay_comparisons": 8,
+  "input_immutability_and_repeatability": "passed in test-kernel",
+  "temporary_directory_independence": "passed for kernel scanner/patcher"
+}

@@ -1,0 +1,20 @@
+{
+  "start": "0x409dc0",
+  "end": "0x41026a",
+  "instruction_count": 7873,
+  "crt_imports": [
+    "fclose",
+    "fopen",
+    "fread",
+    "free",
+    "fseek",
+    "ftell",
+    "fwrite",
+    "malloc",
+    "memcmp",
+    "memcpy",
+    "memset",
+    "strncmp"
+  ],
+  "assembly_source": "src/m8_codec.asm"
+}

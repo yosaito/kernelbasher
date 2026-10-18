@@ -1,0 +1,141 @@
+// Recovered from KernelBasher 1.1. Dialogs are editable.
+#include <windows.h>
+
+LANGUAGE 9, 2
+// Exact resource 5002, type 2: resources/2_5002_2057.bin (linked through original_resources.res)
+
+LANGUAGE 9, 2
+// Exact resource 1, type 3: resources/3_1_2057.bin (linked through original_resources.res)
+
+LANGUAGE 9, 1
+100 DIALOGEX 0, 0, 235, 49
+STYLE 0x80c800c0
+EXSTYLE 0x00000000
+CAPTION "About KernelBasher"
+FONT 8, "MS Sans Serif", 400, 0, 1
+BEGIN
+    CONTROL 128, -1, "Static", 0x50000003, 11, 17, 21, 20, 0x00000000
+    CONTROL "Kernel Basher 1.0", -1, "Static", 0x50020080, 40, 10, 119, 8, 0x00000000
+    CONTROL "Team KernelBase.Com", -1, "Static", 0x50020000, 39, 28, 165, 8, 0x00000000
+    CONTROL "OK", 1, "Button", 0x50030001, 178, 7, 50, 14, 0x00000000
+END
+
+LANGUAGE 9, 1
+102 DIALOGEX 0, 0, 332, 319
+STYLE 0x90c80840
+EXSTYLE 0x00040000
+CAPTION " -{ Kernel Basher 1.1 }- Team KernelBase.com"
+FONT 8, "Arial", 0, 0, 1
+BEGIN
+    CONTROL "Slider17", 5054, "msctls_trackbar32", 0x5000001a, 13, 27, 20, 48, 0x00000000
+    CONTROL "Slider18", 5055, "msctls_trackbar32", 0x5000001a, 36, 27, 20, 48, 0x00000000
+    CONTROL "Slider19", 5056, "msctls_trackbar32", 0x5000001a, 59, 27, 20, 48, 0x00000000
+    CONTROL "Slider8", 5036, "msctls_trackbar32", 0x5000001a, 88, 27, 17, 48, 0x00000000
+    CONTROL "Slider9", 5037, "msctls_trackbar32", 0x5000001a, 113, 27, 17, 48, 0x00000000
+    CONTROL "Slider10", 5038, "msctls_trackbar32", 0x5000001a, 138, 27, 17, 48, 0x00000000
+    CONTROL "Slider4", 5025, "msctls_trackbar32", 0x5000001a, 169, 27, 17, 48, 0x00000000
+    CONTROL "Slider2", 5019, "msctls_trackbar32", 0x5000001a, 193, 27, 17, 48, 0x00000000
+    CONTROL "Slider3", 5024, "msctls_trackbar32", 0x5000001a, 217, 27, 17, 48, 0x00000000
+    CONTROL "Slider5", 5026, "msctls_trackbar32", 0x5000001a, 249, 27, 17, 48, 0x00000000
+    CONTROL "Slider6", 5027, "msctls_trackbar32", 0x5000001a, 273, 27, 17, 48, 0x00000000
+    CONTROL "Slider7", 5028, "msctls_trackbar32", 0x5000001a, 297, 27, 17, 48, 0x00000000
+    CONTROL "Slider20", 5060, "msctls_trackbar32", 0x5000001a, 13, 126, 17, 48, 0x00000000
+    CONTROL "Slider21", 5061, "msctls_trackbar32", 0x5000001a, 33, 126, 17, 48, 0x00000000
+    CONTROL "Slider22", 5062, "msctls_trackbar32", 0x5000001a, 55, 126, 17, 48, 0x00000000
+    CONTROL "Slider12", 5044, "msctls_trackbar32", 0x5000001a, 91, 127, 17, 48, 0x00000000
+    CONTROL "Slider13", 5045, "msctls_trackbar32", 0x5000001a, 117, 127, 17, 48, 0x00000000
+    CONTROL "Slider14", 5046, "msctls_trackbar32", 0x5000001a, 143, 127, 17, 48, 0x00000000
+    CONTROL "Slider15", 5047, "msctls_trackbar32", 0x5000001a, 169, 127, 17, 48, 0x00000000
+    CONTROL "Slider16", 5052, "msctls_trackbar32", 0x5000001a, 203, 127, 17, 48, 0x00000000
+    CONTROL "White Splash Screen", 1010, "Button", 0x50000003, 249, 120, 70, 9, 0x00000000
+    CONTROL "White animation", 1012, "Button", 0x50020003, 249, 134, 70, 10, 0x00000000
+    CONTROL "Keep Machinery", 1013, "Button", 0x50020003, 249, 149, 69, 10, 0x00000000
+    CONTROL "Slider1", 5066, "msctls_trackbar32", 0x4000001a | NOT WS_VISIBLE, 231, 264, 17, 24, 0x00000000
+    CONTROL "Slider2", 5067, "msctls_trackbar32", 0x4000001a | NOT WS_VISIBLE, 235, 274, 17, 6, 0x00000000
+    CONTROL "Slider3", 5068, "msctls_trackbar32", 0x4000001a | NOT WS_VISIBLE, 237, 269, 17, 6, 0x00000000
+    CONTROL "", 1014, "ComboBox", 0x50200003, 10, 219, 131, 121, 0x00000000
+    CONTROL "Random Camera Motion", 5079, "Button", 0x50000003, 12, 233, 92, 10, 0x00000000
+    CONTROL "XBOX Logo Text", 5000, "Button", 0x50020003, 12, 247, 67, 10, 0x00000020
+    CONTROL "&Open", 1025, "Button", 0x50028000, 88, 283, 50, 14, 0x00000000
+    CONTROL "", 1006, "ComboBox", 0x50200003, 271, 222, 50, 61, 0x00000000
+    CONTROL "&Open", 1024, "Button", 0x50028000, 270, 240, 50, 14, 0x00000000
+    CONTROL "&SaveAs", 1000, "Button", 0x50028000, 270, 261, 50, 14, 0x00000000
+    CONTROL "Load Preset", 5088, "Button", 0x50008000, 149, 283, 50, 14, 0x00000000
+    CONTROL "Save Preset", 5087, "Button", 0x50008000, 149, 261, 50, 14, 0x00000000
+    CONTROL "E&xit", 2, "Button", 0x50028000, 270, 283, 50, 14, 0x00000000
+    CONTROL "Fog Colour", -1, "Button", 0x50000007, 7, 7, 75, 101, 0x00000000
+    CONTROL "Flubber Options", -1, "Button", 0x50000007, 84, 108, 153, 101, 0x00000000
+    CONTROL "Initial Glow", -1, "Button", 0x50000007, 84, 7, 75, 101, 0x00000000
+    CONTROL "Main Glow", -1, "Button", 0x50000007, 161, 7, 75, 101, 0x00000000
+    CONTROL "End Glow", -1, "Button", 0x50000007, 7, 108, 75, 101, 0x00000000
+    CONTROL "Scene Geometry", -1, "Button", 0x50000007, 237, 7, 88, 101, 0x00000000
+    CONTROL "Other Options", -1, "Button", 0x50020007, 240, 109, 85, 83, 0x00000000
+    CONTROL "Camera Options", -1, "Button", 0x50000007, 7, 209, 136, 36, 0x00000000
+    CONTROL "", 5005, "Button", 0x50020007, 7, 246, 136, 56, 0x00000000
+    CONTROL ".X File :", 5006, "Static", 0x50020000, 13, 259, 30, 9, 0x00000000
+    CONTROL "Indices :", 5007, "Static", 0x50020000, 13, 275, 29, 11, 0x00000000
+    CONTROL "Vertices :", 5008, "Static", 0x50020000, 13, 288, 29, 11, 0x00000000
+    CONTROL "", 5004, "Edit", 0x50020880, 45, 259, 56, 12, 0x00000000
+    CONTROL "", 5002, "Edit", 0x50020880, 45, 275, 19, 12, 0x00000000
+    CONTROL "", 5003, "Edit", 0x50020880, 45, 288, 19, 12, 0x00000000
+    CONTROL "File Options", -1, "Button", 0x50020007, 145, 209, 180, 95, 0x00000000
+    CONTROL "", 5010, "Edit", 0x50020880, 186, 221, 75, 13, 0x00000020
+    CONTROL "", 5014, "Edit", 0x50000980, 186, 236, 75, 12, 0x00000000
+    CONTROL "", 5021, "Edit", 0x50002880, 171, 74, 17, 12, 0x00000000
+    CONTROL "", 5022, "Edit", 0x50002880, 197, 75, 17, 12, 0x00000000
+    CONTROL "", 5023, "Edit", 0x50002880, 217, 75, 17, 12, 0x00000000
+    CONTROL "R         G         B", -1, "Static", 0x50020000, 177, 19, 58, 13, 0x00000000
+    CONTROL "R         G          B", -1, "Static", 0x50020000, 256, 19, 61, 8, 0x00000000
+    CONTROL "", 5033, "Edit", 0x50002880, 246, 75, 17, 12, 0x00000000
+    CONTROL "", 5034, "Edit", 0x50002880, 270, 75, 17, 12, 0x00000000
+    CONTROL "", 5035, "Edit", 0x50002880, 296, 75, 17, 12, 0x00000000
+    CONTROL "R         G          B", -1, "Static", 0x50020000, 95, 18, 58, 8, 0x00000000
+    CONTROL "", 5039, "Edit", 0x50002880, 92, 75, 17, 12, 0x00000000
+    CONTROL "", 5040, "Edit", 0x50002880, 116, 75, 17, 12, 0x00000000
+    CONTROL "", 5041, "Edit", 0x50002880, 140, 75, 17, 12, 0x00000000
+    CONTROL "Slider11", 5042, "msctls_trackbar32", 0x4000001a | NOT WS_VISIBLE, 231, 274, 17, 6, 0x00000000
+    CONTROL "", 5043, "Edit", 0x40002880 | NOT WS_VISIBLE, 233, 269, 17, 12, 0x00000000
+    CONTROL "R          G           B          A", -1, "Static", 0x50020000, 97, 120, 84, 8, 0x00000000
+    CONTROL "", 5048, "Edit", 0x50002880, 89, 176, 17, 13, 0x00000000
+    CONTROL "", 5049, "Edit", 0x50002880, 115, 176, 17, 13, 0x00000000
+    CONTROL "", 5050, "Edit", 0x50002880, 141, 176, 17, 13, 0x00000000
+    CONTROL "", 5051, "Edit", 0x50002880, 167, 176, 17, 13, 0x00000000
+    CONTROL "Radius", -1, "Static", 0x50020000, 199, 120, 30, 8, 0x00000000
+    CONTROL "", 5053, "Edit", 0x50002880, 205, 176, 17, 13, 0x00000000
+    CONTROL "R         G         B", -1, "Static", 0x50020000, 19, 17, 58, 8, 0x00000000
+    CONTROL "", 5057, "Edit", 0x50002880, 15, 75, 17, 12, 0x00000000
+    CONTROL "", 5058, "Edit", 0x50002880, 37, 75, 17, 12, 0x00000000
+    CONTROL "", 5059, "Edit", 0x50002880, 61, 75, 17, 12, 0x00000000
+    CONTROL "", 5063, "Edit", 0x50002880, 15, 176, 15, 14, 0x00000000
+    CONTROL "", 5064, "Edit", 0x50002880, 33, 176, 20, 14, 0x00000000
+    CONTROL "", 5065, "Edit", 0x50002880, 55, 176, 18, 15, 0x00000000
+    CONTROL "", 5069, "Edit", 0x40002880 | NOT WS_VISIBLE, 229, 267, 17, 13, 0x00000000
+    CONTROL "", 5070, "Edit", 0x40002880 | NOT WS_VISIBLE, 227, 266, 17, 13, 0x00000000
+    CONTROL "", 5071, "Edit", 0x40002880 | NOT WS_VISIBLE, 230, 266, 17, 13, 0x00000000
+    CONTROL "  R         G        B", -1, "Static", 0x50020000, 13, 119, 54, 8, 0x00000000
+    CONTROL "Progress1", 5074, "msctls_progress32", 0x50800000, 7, 308, 318, 6, 0x00000000
+    CONTROL "                                ", 5080, "Static", 0x50820000, 12, 89, 65, 14, 0x00000000
+    CONTROL "                                ", 5081, "Static", 0x5082000c, 89, 89, 65, 14, 0x00000000
+    CONTROL "                                ", 5082, "Static", 0x50820000, 166, 89, 65, 14, 0x00000000
+    CONTROL "                                ", 5083, "Static", 0x50820000, 242, 89, 78, 14, 0x00000000
+    CONTROL "                                ", 5084, "Static", 0x50820000, 12, 191, 65, 14, 0x00000000
+    CONTROL "                                ", 5085, "Static", 0x50820000, 87, 191, 145, 14, 0x00000000
+    CONTROL "                                ", 5086, "Static", 0x40820000 | NOT WS_VISIBLE, 239, 270, 8, 8, 0x00000000
+    CONTROL "Wireframe Scene", 5093, "Button", 0x50010003, 249, 164, 70, 10, 0x00000000
+    CONTROL "Torn X Logo", 5094, "Button", 0x50010003, 249, 179, 55, 10, 0x00000000
+    CONTROL "Scenery Mod", 5095, "Button", 0x40010003 | NOT WS_VISIBLE, 249, 194, 59, 10, 0x00000000
+    CONTROL "File Name :", -1, "Static", 0x50020000, 151, 221, 36, 8, 0x00000000
+    CONTROL "Bios ID :", -1, "Static", 0x50020000, 158, 236, 27, 8, 0x00000000
+END
+
+LANGUAGE 9, 1
+// Exact resource 7, type 6: resources/6_7_1033.bin (linked through original_resources.res)
+
+LANGUAGE 9, 2
+// Exact resource 128, type 14: resources/14_128_2057.bin (linked through original_resources.res)
+
+LANGUAGE 9, 1
+// Exact resource 1, type 16: resources/16_1_1033.bin (linked through original_resources.res)
+
+LANGUAGE 9, 1
+// Exact resource 102, type 240: resources/240_102_1033.bin (linked through original_resources.res)

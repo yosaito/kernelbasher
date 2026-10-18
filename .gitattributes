@@ -1,0 +1,13 @@
+* text=auto eol=lf
+*.cmd text eol=crlf
+# Preserve archived release bytes and raw recovery evidence exactly.
+original/** -text -whitespace
+evidence/** -text -whitespace
+*.exe binary
+*.dll binary
+*.bin binary
+*.img binary
+*.kbp binary
+*.png binary
+*.pdf binary
+*.zip binary

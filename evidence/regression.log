@@ -1,0 +1,29 @@
+{"test": "xbflash DLL load, ABI exports and config", "passed": true}
+{"test": "preset slider round trip", "passed": true, "file": "blue_with_metal_scene.kbp"}
+{"test": "preset slider round trip", "passed": true, "file": "RED.kbp"}
+{"test": "preset slider round trip", "passed": true, "file": "Rose.kbp"}
+{"test": "shipped mesh parser", "passed": true, "file": "Bio.x", "counts": "156 vertices, 144 triangles"}
+{"test": "shipped mesh parser", "passed": true, "file": "evox.x", "counts": "154 vertices, 140 triangles"}
+{"test": "shipped mesh parser", "passed": true, "file": "halflife.x", "counts": "156 vertices, 134 triangles"}
+{"test": "shipped mesh parser", "passed": true, "file": "HYPER.x", "counts": "76 vertices, 70 triangles"}
+{"test": "shipped mesh parser", "passed": true, "file": "linux.x", "counts": "150 vertices, 138 triangles"}
+{"test": "shipped mesh parser", "passed": true, "file": "modinside.x", "counts": "127 vertices, 115 triangles"}
+{"test": "shipped mesh parser", "passed": true, "file": "ooolala.x", "counts": "149 vertices, 155 triangles"}
+{"test": "shipped mesh parser", "passed": true, "file": "ps2.x", "counts": "30 vertices, 24 triangles"}
+{"test": "shipped mesh parser", "passed": true, "file": "psx.x", "counts": "156 vertices, 134 triangles"}
+{"test": "shipped mesh parser", "passed": true, "file": "SmartXX.x", "counts": "96 vertices, 84 triangles"}
+{"test": "shipped mesh parser", "passed": true, "file": "tux linux.x", "counts": "149 vertices, 151 triangles"}
+{"test": "shipped mesh parser", "passed": true, "file": "xbmc-real.x", "counts": "156 vertices, 152 triangles"}
+{"test": "shipped mesh parser", "passed": true, "file": "xenium.x", "counts": "113 vertices, 95 triangles"}
+{"test": "shipped mesh parser", "passed": true, "file": "xsguy.x", "counts": "116 vertices, 94 triangles"}
+{"test": "LZX round trip", "passed": true, "fixture": "small", "input_bytes": 506, "compressed_bytes": 84, "sha256": "3bd0d0b11bd74ac74a4fd62e9606566bb910e802db5804810ea688ecccc7f75f"}
+{"test": "LZX round trip", "passed": true, "fixture": "block-boundary", "input_bytes": 32769, "compressed_bytes": 32798, "sha256": "b962f103c5e96ad34c0ef56a7b44baaf2c9d377c94d143cb352c75cf0aae4418"}
+{"test": "LZX round trip", "passed": true, "fixture": "multi-block", "input_bytes": 100003, "compressed_bytes": 100056, "sha256": "43c01c63fb1c63494745584320e18feae5803e7ca128f649de4ee8eeab052b76"}
+{"test": "LZX round trip", "passed": true, "fixture": "repetitive", "input_bytes": 262144, "compressed_bytes": 364, "sha256": "5c9af1f7338e700c4fee9bfa20d53001f1af63047573b8d6ea5c2f3ce24dc806"}
+{"test": "M8 C++ container matches recovered assembly", "passed": true, "bytes": 262144, "sha256": "1e79fda94a459238d6e28258f146bd7dc5d1b75c6a2d60a2d7b0400016936a07"}
+{"test": "M8 container round trip", "passed": true, "kernel_bytes": 65536, "metadata_changed": "DOS-header M8 fields 0x28..0x3b"}
+{"test": "reject truncated preset", "passed": true}
+{"test": "reject excessive vertex count", "passed": true}
+{"test": "reject out-of-bounds M8 frame region", "passed": true}
+{"test": "preserve existing output", "passed": true}
+28 regression checks passed
