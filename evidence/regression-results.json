@@ -138,7 +138,7 @@
     "test": "M8 C++ container matches recovered assembly",
     "passed": true,
     "bytes": 262144,
-    "sha256": "820cf44879592f7049b23d1ee6a668e7ed5c52e58a4bd2b5f7a06d1e71ee3230"
+    "sha256": "186dd0ab4c9da50ffc809b1f2a0614e8ab8a476880e9f9d8fd5f98fcc6248cd1"
   },
   {
     "test": "M8 container round trip",

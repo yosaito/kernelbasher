@@ -1,0 +1,39 @@
+{
+  "visibleHost": true,
+  "slider": {
+    "before": "b8fbda18c0b9e01b32af14740ac11065fc2f6effdfe91f7edb5de2e1392dcaec",
+    "after": "69e7956da1864e03d11db23f6ede892c0ccc38e0397c180e206f8e567edac951",
+    "tick": 2000,
+    "red": 255
+  },
+  "logo": {
+    "file": "xsguy.x",
+    "vertices": 116,
+    "faces": 94,
+    "before": "a8547d19f5a94d22067b77d4bc44950c66791a93de64ebe2338af8df101f4cf1",
+    "after": "dea1ad6a0a0e155284d18c827cd25bf7099d6b86f6430077da51bb4c78a4f77b",
+    "tick": 7000,
+    "errors": []
+  },
+  "loopAfterXfile": {
+    "cycles": 2,
+    "vertices": 116,
+    "errors": [],
+    "status": "Live reference preview · loops silently"
+  },
+  "radiusWhilePlaying": {
+    "before": {
+      "tick": 2781,
+      "radius": 3.25,
+      "applied": 5
+    },
+    "after": {
+      "tick": 3812,
+      "radius": 1,
+      "applied": 7,
+      "errors": []
+    },
+    "playbackContinues": true
+  },
+  "passed": true
+}

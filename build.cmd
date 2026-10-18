@@ -31,6 +31,10 @@ rc /nologo /fo build\KernelBasher.res /i src src\KernelBasher.rc
 if errorlevel 1 exit /b 1
 cl /nologo /std:c++17 /EHsc /MT /O2 /arch:IA32 /D_UNICODE /DUNICODE /D_CRT_SECURE_NO_WARNINGS /Fobuild\ /Febuild\KernelBasher.exe src\gui.cpp src\preview.cpp build\core.obj build\patch_engine.obj build\m8_container.obj build\m8_codec.obj build\KernelBasher.res build\original_resources.res /link /SUBSYSTEM:WINDOWS user32.lib gdi32.lib comctl32.lib comdlg32.lib ole32.lib oleaut32.lib shell32.lib version.lib advapi32.lib third_party\webview2\WebView2LoaderStatic.lib
 if errorlevel 1 exit /b 1
+cl /nologo /EHsc /MT /O2 /DUNICODE /D_UNICODE /Fobuild\preview_host_test.obj /Febuild\preview_host_test.exe tools\preview_host_test.cpp /link user32.lib comctl32.lib
+if errorlevel 1 exit /b 1
+build\preview_host_test.exe "%CD%\build\KernelBasher.exe"
+if errorlevel 1 exit /b 1
 copy /y "original\extracted\xbflash.dll" "build\xbflash.dll" >nul
 if errorlevel 1 exit /b 1
 copy /y "original\extracted\$SYSDIR\msvcr71.dll" "build\msvcr71.dll" >nul

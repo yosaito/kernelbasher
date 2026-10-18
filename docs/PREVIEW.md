@@ -74,6 +74,23 @@ closing the dialog closes the controller, including late creation callbacks.
 
 ## Verification
 
+`build.cmd` also builds and runs `tools/preview_host_test.cpp` against the
+compiled Windows dialog resource. It checks the real host bounds and native
+sibling Z order. The preview host must precede its enclosing group box in the
+resource: putting the frame first covers the entire browser host and clips
+away its pixels, even while WebView2 is rendering successfully internally.
+
+Native verification additionally captures the whole Windows dialog, drags a
+colour slider at a fixed animation frame, loads `xsguy.x` through the file
+picker at the logo frame, and changes the radius during playback. The loaded
+mesh survives two automatic loops with no GPU errors. Results are recorded in
+`evidence/preview-native-visibility-tests.json`; whole-dialog screenshots are
+`evidence/preview-native-visible.jpg`, `preview-native-slider.jpg`, and
+`preview-native-xfile.jpg`. Browser-only screenshots cannot establish native
+host visibility. Fixed-frame tests pause only the isolated test instance;
+normal settings and X-file changes do not pause the animation. A custom mesh
+appears during the logo phase, near the end of each loop.
+
 `tools/preview_test.mjs` runs the actual renderer in Edge through Playwright. It
 starts a temporary loopback asset server solely for the test, checks pixel
 hash changes for visual settings, restoration/deterministic replay, the camera

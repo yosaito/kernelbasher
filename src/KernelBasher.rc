@@ -27,8 +27,10 @@ EXSTYLE 0x00040000
 CAPTION " -{ Kernel Basher 1.1 }- Team KernelBase.com"
 FONT 8, "Arial", 0, 0, 1
 BEGIN
-    CONTROL "Live boot preview", -1, "Button", 0x50000007, 332, 7, 207, 183, 0
     CONTROL "Starting animation preview...", 5100, "Static", 0x56020000, 339, 20, 193, 162, 0
+    // Earlier dialog controls are higher in sibling Z order. Keep the frame
+    // behind the WebView host or WS_CLIPSIBLINGS clips the whole preview away.
+    CONTROL "Live boot preview", -1, "Button", 0x50000007, 332, 7, 207, 183, 0
     CONTROL "Reference rendering from xbox-boot-re (Complex 4627). Colours, geometry and motion update as you edit. The preview loops silently.", -1, "Static", 0x50020000, 339, 199, 193, 40, 0
     CONTROL "Hardware and other BIOS revisions may render differently. Camera choices 1-6 share the original patcher's behaviour; 7 and 8 select separate paths.", -1, "Static", 0x50020000, 339, 247, 193, 48, 0
     CONTROL "Slider17", 5054, "msctls_trackbar32", 0x5000001a, 13, 27, 20, 48, 0x00000000
