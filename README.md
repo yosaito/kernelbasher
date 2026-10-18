@@ -4,7 +4,10 @@ This project builds a working 32-bit Windows GUI and command-line tool.
 It contains editable C++ application/patch code, the recovered dialog resources,
 and reassemblable x86 MASM source for the embedded M8/LZX codec.
 The Windows dialog now includes an offline, looping live boot-animation preview
-using [xbox-boot-re](https://github.com/bennyborn/xbox-boot-re). Sliders, typed
+using [bennyborn's xbox-boot-re](https://github.com/bennyborn/xbox-boot-re).
+The animation adaptations are published in our
+[public preview fork](https://github.com/yosaito/xbox-boot-re/tree/main/hosts/kernelbasher).
+Sliders, typed
 values, presets, cameras and logo changes update the animation as you edit.
 See [docs/PREVIEW.md](docs/PREVIEW.md) for the mapping and its accuracy limits.
 

@@ -4,6 +4,15 @@
 
 Source: https://github.com/bennyborn/xbox-boot-re
 
+Public preview fork: https://github.com/yosaito/xbox-boot-re
+
+Fork integration commit: `8a8c1afa512fed17597e4514617732fee5447ad5`.
+Its `hosts/kernelbasher/` directory publishes the same preview adapter and
+WASM used here, a standalone build, and the 20 renderer checks. GitHub records
+the upstream fork relationship. This project continues to bundle its offline
+snapshot; no network fetch is needed at build or run time. The original
+upstream core remains pinned separately below.
+
 Pinned commit: `12a3396aa77f72c8d2fd94c0988c7e11539b47e7` (main, retrieved 18 October 2026).
 The selected portable C core, data, pack generator and six web-renderer modules
 are copied without edits under `xbox-boot-re/`. Its MIT license is included.
